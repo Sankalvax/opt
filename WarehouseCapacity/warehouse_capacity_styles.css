@@ -1,0 +1,446 @@
+:root {
+    --primary-bg: #f4f6f9;
+    --card-bg: #ffffff;
+    --text-color: #333;
+    --header-color: #17a2b8; /* Teal theme for capacity optimization */
+    --border-color: #e1e4e8;
+    --shadow: 0 2px 4px rgba(0,0,0,0.05);
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.dashboard-header {
+    background-color: var(--header-color);
+    color: white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.dashboard-header p {
+    margin: 0.2rem 0 0;
+    opacity: 0.9;
+}
+
+.dashboard-main {
+    padding: 2rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: var(--header-color);
+}
+
+.kpi-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Network Summary KPI Styles */
+.kpi-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-left-width: 5px;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.kpi-card.high-util { border-left-color: var(--danger-color); }
+.kpi-card.transfers { border-left-color: var(--info-color); }
+.kpi-card.alerts { border-left-color: var(--warning-color); }
+.kpi-card.savings { border-left-color: var(--success-color); }
+.kpi-card.scenarios { border-left-color: var(--header-color); }
+
+.kpi-card .value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--header-color);
+    margin-bottom: 0.5rem;
+}
+
+.kpi-card .label {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* Analysis Container */
+.analysis-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.chart-section, .details-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    margin-top: 1rem;
+}
+
+/* Transfer Opportunities */
+.transfer-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.transfer-card {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.transfer-details h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--header-color);
+}
+
+.transfer-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.transfer-metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.transfer-metrics .metric-value {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.transfer-metrics .metric-label {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.transfer-priority {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.transfer-priority.HIGH {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.transfer-priority.MEDIUM {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.transfer-priority.LOW {
+    background-color: var(--success-color);
+    color: white;
+}
+
+/* Scenario Toggle */
+.scenario-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.scenario-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.scenario-btn:hover {
+    background-color: var(--primary-bg);
+}
+
+.scenario-btn.active {
+    background-color: var(--header-color);
+    color: white;
+    border-color: var(--header-color);
+}
+
+.scenario-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.scenario-summary {
+    background-color: var(--primary-bg);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.scenario-summary h4 {
+    margin-top: 0;
+    color: var(--header-color);
+}
+
+/* Product Recommendations */
+.product-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.product-card {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.product-card h4 {
+    margin: 0 0 1rem 0;
+    color: var(--header-color);
+}
+
+.product-levels {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.warehouse-level {
+    background-color: var(--card-bg);
+    border-radius: 4px;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.warehouse-level .warehouse-name {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.warehouse-level .inventory-amount {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--header-color);
+}
+
+.product-transfers {
+    border-top: 1px solid var(--border-color);
+    padding-top: 1rem;
+}
+
+.product-transfer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Warehouse Details Table */
+#warehouse-details-table {
+    overflow-x: auto;
+}
+
+.warehouse-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+
+.warehouse-table th,
+.warehouse-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.warehouse-table th {
+    background-color: var(--primary-bg);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.warehouse-table tr:hover {
+    background-color: var(--primary-bg);
+}
+
+.utilization-bar {
+    width: 100px;
+    height: 20px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.utilization-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.utilization-fill.low { background-color: var(--success-color); }
+.utilization-fill.medium { background-color: var(--warning-color); }
+.utilization-fill.high { background-color: var(--danger-color); }
+
+/* Risk Indicators */
+.risk-indicator {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.risk-indicator.MINIMAL { background-color: var(--success-color); color: white; }
+.risk-indicator.LOW { background-color: var(--info-color); color: white; }
+.risk-indicator.MEDIUM { background-color: var(--warning-color); color: white; }
+.risk-indicator.HIGH { background-color: var(--danger-color); color: white; }
+
+/* Alerts Section */
+#alerts-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#alerts-section li {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    border-left: 4px solid;
+}
+
+#alerts-section li.HIGH {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-left-color: var(--danger-color);
+}
+
+#alerts-section li.MEDIUM {
+    background-color: rgba(255, 193, 7, 0.1);
+    border-left-color: var(--warning-color);
+}
+
+#alerts-section li.LOW {
+    background-color: rgba(40, 167, 69, 0.1);
+    border-left-color: var(--success-color);
+}
+
+#alerts-section .alert-header {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#alerts-section .alert-message {
+    margin-bottom: 0.5rem;
+}
+
+#alerts-section .alert-recommendation {
+    font-style: italic;
+    color: #666;
+}
+
+/* Footer */
+#metadata-footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader-container {
+    text-align: center;
+    padding: 4rem;
+    color: #888;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid var(--header-color);
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .analysis-container,
+    .scenario-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .kpi-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    .transfer-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

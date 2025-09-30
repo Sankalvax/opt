@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Product Rolling Forecast</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="warehouse_forecast_styles.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Warehouse Product Rolling Forecast</h1>
+        <p id="last-updated">Loading forecast data...</p>
+    </header>
+
+    <main class="dashboard-main">
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+            <p>Fetching warehouse forecast data...</p>
+        </div>
+
+        <div id="dashboard-content" class="hidden">
+            <!-- Network Summary KPIs -->
+            <section class="card">
+                <h2>Network Summary</h2>
+                <div id="network-summary-kpis" class="kpi-container"></div>
+            </section>
+            
+            <!-- Alerts Section -->
+            <div id="alerts-section" class="card hidden">
+                <!-- Alerts will be rendered here -->
+            </div>
+            
+            <!-- Warehouse Selector -->
+            <section class="card">
+                <h2>Warehouse Details</h2>
+                <div>
+                    <label for="warehouse-select">Select Warehouse:</label>
+                    <select id="warehouse-select" class="warehouse-selector">
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+                </div>
+            </section>
+            
+            <!-- Warehouse Details Section -->
+            <div id="warehouse-details" class="hidden">
+                <section class="card">
+                    <h2>Warehouse Information</h2>
+                    <div id="capacity-info-container"></div>
+                </section>
+                
+                <!-- Product Tabs -->
+                <section class="card">
+                    <div class="tab-container">
+                        <button class="tab-button" data-product="Overall">Overall</button>
+                        <button class="tab-button" data-product="A">Product A</button>
+                        <button class="tab-button" data-product="B">Product B</button>
+                        <button class="tab-button" data-product="C">Product C</button>
+                    </div>
+                    
+                    <!-- Main Chart -->
+                    <div class="chart-container">
+                        <canvas id="main-chart"></canvas>
+                    </div>
+                    
+                    <!-- Details Table -->
+                    <div id="details-table-container" class="table-container">
+                        <!-- Table will be rendered here -->
+                    </div>
+                </section>
+            </div>
+
+            <footer id="metadata-footer"></footer>
+        </div>
+    </main>
+
+    <script src="warehouse_forecast_app.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Trends Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="historical_trends_styles.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Historical Trends Analysis</h1>
+        <p id="last-updated">Loading data...</p>
+    </header>
+
+    <main class="dashboard-main">
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+            <p>Fetching historical data...</p>
+        </div>
+
+        <div id="dashboard-content" class="hidden">
+            <h2>Summary Statistics</h2>
+            <section id="kpi-cards" class="kpi-container"></section>
+            
+            <section class="card">
+                <h2>Overall Warehouse Activity (2017-2022)</h2>
+                <div class="chart-container">
+                    <canvas id="overallActivityChart"></canvas>
+                </div>
+            </section>
+            
+            <section class="card">
+                <h2>Inventory Levels by Warehouse (2017-2022)</h2>
+                <div class="chart-container">
+                    <canvas id="inventoryByWarehouseChart"></canvas>
+                </div>
+            </section>
+
+            <footer id="metadata-footer"></footer>
+        </div>
+    </main>
+
+    <script src="historical_trends_app.js"></script>
+</body>
+</html>

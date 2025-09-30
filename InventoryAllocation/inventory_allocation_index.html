@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Allocation View</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="inventory_allocation_styles.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Inventory Allocation View</h1>
+        <p id="last-updated">Loading allocation data...</p>
+    </header>
+
+    <main class="dashboard-main">
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+            <p>Fetching warehouse-to-partner allocation data...</p>
+        </div>
+
+        <div id="dashboard-content" class="hidden">
+            <!-- Executive Summary -->
+            <section class="card">
+                <h2>Executive Summary</h2>
+                <div id="summary-kpis" class="kpi-container"></div>
+            </section>
+            
+            <!-- Priority Actions -->
+            <section class="card">
+                <h2>Priority Actions</h2>
+                <div class="priority-tabs">
+                    <button class="priority-tab active" data-priority="URGENT">Urgent</button>
+                    <button class="priority-tab" data-priority="HIGH">High</button>
+                    <button class="priority-tab" data-priority="MEDIUM">Medium</button>
+                    <button class="priority-tab" data-priority="LOW">Low</button>
+                    <button class="priority-tab" data-priority="ALL">All</button>
+                </div>
+                <div id="priority-allocations" class="allocations-container">
+                    <!-- Priority allocations will be rendered here -->
+                </div>
+            </section>
+            
+            <!-- Current Inventory Overview -->
+            <section class="card">
+                <h2>Current Inventory Overview</h2>
+                <div class="inventory-analysis">
+                    <div class="chart-section">
+                        <h3>Warehouse Inventory Levels</h3>
+                        <div class="chart-container">
+                            <canvas id="inventoryChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="breakdown-section">
+                        <h3>Product Distribution</h3>
+                        <div class="chart-container">
+                            <canvas id="productChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Partner Demand Analysis -->
+            <section class="card">
+                <h2>Partner Demand Analysis</h2>
+                <div class="demand-overview">
+                    <div class="chart-section">
+                        <h3>Monthly Demand by Partner</h3>
+                        <div class="chart-container">
+                            <canvas id="demandChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="partner-details">
+                        <h3>Partner Profiles</h3>
+                        <div id="partner-profiles" class="partner-container">
+                            <!-- Partner profiles will be rendered here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Allocation Recommendations -->
+            <section class="card">
+                <h2>Detailed Allocation Recommendations</h2>
+                <div class="allocation-filters">
+                    <div class="filter-group">
+                        <label for="warehouse-filter">Warehouse:</label>
+                        <select id="warehouse-filter">
+                            <option value="ALL">All Warehouses</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="partner-filter">Partner:</label>
+                        <select id="partner-filter">
+                            <option value="ALL">All Partners</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="product-filter">Product:</label>
+                        <select id="product-filter">
+                            <option value="ALL">All Products</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="allocation-recommendations" class="allocations-grid">
+                    <!-- Detailed recommendations will be rendered here -->
+                </div>
+            </section>
+            
+            <!-- Logistics & Cost Analysis -->
+            <section class="card">
+                <h2>Logistics & Cost Analysis</h2>
+                <div class="logistics-overview">
+                    <div class="chart-section">
+                        <h3>Shipping Cost by Route</h3>
+                        <div class="chart-container">
+                            <canvas id="shippingChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="cost-summary">
+                        <h3>Cost Summary</h3>
+                        <div id="cost-summary-details" class="cost-details">
+                            <!-- Cost summary will be rendered here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="metadata-footer"></footer>
+        </div>
+    </main>
+
+    <script src="inventory_allocation_app.js"></script>
+</body>
+</html>

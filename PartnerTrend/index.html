@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Demand Forecast Dashboard</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="dashboard-header">
+        <h1>Partner Demand Forecast</h1>
+        <p id="last-updated">Loading data...</p>
+    </header>
+
+    <main class="dashboard-main">
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+            <p>Fetching forecast data...</p>
+        </div>
+
+        <div id="dashboard-content" class="hidden">
+            
+            <h2>Network Summary</h2>
+            <section id="kpi-cards" class="kpi-container"></section>
+            
+            <section class="content-grid">
+                <div class="card">
+                    <h3>Top 5 Partners (by Predicted Volume)</h3>
+                    <div id="top-partners-table-container"></div>
+                </div>
+                <div class="card">
+                    <h3>Regional Breakdown (by Predicted Volume)</h3>
+                    <div id="regional-breakdown-container"></div>
+                </div>
+                <div class="card">
+                    <h3>Product Mix (Apparel vs. Footwear)</h3>
+                    <div id="product-mix-chart-container">
+                        <canvas id="productMixChart"></canvas>
+                    </div>
+                    </div>
+            </section>
+
+            <section class="card" style="margin-top: 2rem;">
+                <h2>Partner Insights</h2>
+                <div id="insights-grid">
+                    <div id="growth-insights-container"></div>
+                    <div id="risk-assessment-container"></div>
+                </div>
+            </section>
+            
+            <section class="card" style="margin-top: 2rem;">
+                <h2>Detailed Partner Forecasts</h2>
+                <div class="controls-container">
+                    <label for="partner-select">Select a Partner:</label>
+                    <select id="partner-select"></select>
+                </div>
+                <div id="partner-summary-container"></div>
+                <div id="monthly-forecast-container">
+                    <p>Select a partner from the dropdown to view their monthly forecast.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

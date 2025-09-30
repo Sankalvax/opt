@@ -1,0 +1,544 @@
+:root {
+    --primary-bg: #f4f6f9;
+    --card-bg: #ffffff;
+    --text-color: #333;
+    --header-color: #e74c3c; /* Red theme for allocation urgency */
+    --border-color: #e1e4e8;
+    --shadow: 0 2px 4px rgba(0,0,0,0.05);
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    --urgent-color: #e74c3c;
+    --high-color: #f39c12;
+    --medium-color: #3498db;
+    --low-color: #95a5a6;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.dashboard-header {
+    background-color: var(--header-color);
+    color: white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.dashboard-header p {
+    margin: 0.2rem 0 0;
+    opacity: 0.9;
+}
+
+.dashboard-main {
+    padding: 2rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: var(--header-color);
+}
+
+.kpi-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Summary KPI Styles */
+.kpi-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-left-width: 5px;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.kpi-card.allocations { border-left-color: var(--header-color); }
+.kpi-card.urgent { border-left-color: var(--urgent-color); }
+.kpi-card.demand { border-left-color: var(--info-color); }
+.kpi-card.cost { border-left-color: var(--success-color); }
+.kpi-card.partners { border-left-color: var(--warning-color); }
+
+.kpi-card .value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--header-color);
+    margin-bottom: 0.5rem;
+}
+
+.kpi-card .label {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* Priority Tabs */
+.priority-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.priority-tab {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.priority-tab:hover {
+    background-color: var(--primary-bg);
+}
+
+.priority-tab.active {
+    background-color: var(--header-color);
+    color: white;
+    border-color: var(--header-color);
+}
+
+/* Allocations Container */
+.allocations-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.allocation-card {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.allocation-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.allocation-details h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--header-color);
+}
+
+.allocation-details .route {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.allocation-details .details {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.allocation-metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.metric-item {
+    text-align: center;
+}
+
+.metric-value {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.metric-label {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.allocation-priority {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.allocation-priority.URGENT {
+    background-color: var(--urgent-color);
+    color: white;
+}
+
+.allocation-priority.HIGH {
+    background-color: var(--high-color);
+    color: white;
+}
+
+.allocation-priority.MEDIUM {
+    background-color: var(--medium-color);
+    color: white;
+}
+
+.allocation-priority.LOW {
+    background-color: var(--low-color);
+    color: white;
+}
+
+/* Inventory Analysis */
+.inventory-analysis {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.chart-section, .breakdown-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    margin-top: 1rem;
+}
+
+/* Demand Overview */
+.demand-overview {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.partner-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.partner-card {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.partner-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--header-color);
+}
+
+.partner-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.partner-info .label {
+    font-weight: 600;
+}
+
+.partner-info .value {
+    color: #666;
+}
+
+/* Allocation Filters */
+.allocation-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.filter-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.filter-group select {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--card-bg);
+    font-size: 0.9rem;
+}
+
+/* Allocations Grid */
+.allocations-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.allocation-item {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.allocation-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.allocation-main h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--header-color);
+}
+
+.allocation-timeline {
+    background-color: var(--card-bg);
+    border-radius: 4px;
+    padding: 0.75rem;
+}
+
+.allocation-timeline h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.allocation-logistics {
+    background-color: var(--card-bg);
+    border-radius: 4px;
+    padding: 0.75rem;
+}
+
+.allocation-logistics h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.size-breakdown {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--card-bg);
+    border-radius: 4px;
+}
+
+.size-breakdown h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.size-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.size-item {
+    background-color: var(--primary-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+/* Logistics Overview */
+.logistics-overview {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.cost-summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.cost-details {
+    margin-top: 1rem;
+}
+
+.cost-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--primary-bg);
+    border-radius: 4px;
+    border-left: 4px solid var(--info-color);
+}
+
+.cost-item.total {
+    border-left-color: var(--header-color);
+    font-weight: 600;
+}
+
+.cost-label {
+    font-weight: 500;
+}
+
+.cost-value {
+    font-weight: 700;
+    color: var(--header-color);
+}
+
+/* Footer */
+#metadata-footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader-container {
+    text-align: center;
+    padding: 4rem;
+    color: #888;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid var(--header-color);
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Status Indicators */
+.status-indicator {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-indicator.RECOMMENDED {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.status-indicator.PENDING {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.status-indicator.PROCESSING {
+    background-color: var(--info-color);
+    color: white;
+}
+
+/* Confidence Indicators */
+.confidence-indicator {
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.confidence-indicator.High {
+    background-color: rgba(40, 167, 69, 0.2);
+    color: var(--success-color);
+    border: 1px solid var(--success-color);
+}
+
+.confidence-indicator.Medium {
+    background-color: rgba(255, 193, 7, 0.2);
+    color: var(--warning-color);
+    border: 1px solid var(--warning-color);
+}
+
+.confidence-indicator.Low {
+    background-color: rgba(220, 53, 69, 0.2);
+    color: var(--danger-color);
+    border: 1px solid var(--danger-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .inventory-analysis,
+    .demand-overview,
+    .logistics-overview {
+        grid-template-columns: 1fr;
+    }
+    
+    .kpi-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    .allocation-card,
+    .allocation-item {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .allocation-filters {
+        flex-direction: column;
+    }
+    
+    .priority-tabs {
+        justify-content: center;
+    }
+}

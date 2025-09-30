@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Capacity Optimization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="warehouse_capacity_styles.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Warehouse Capacity Optimization</h1>
+        <p id="last-updated">Loading capacity data...</p>
+    </header>
+
+    <main class="dashboard-main">
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+            <p>Fetching warehouse capacity optimization data...</p>
+        </div>
+
+        <div id="dashboard-content" class="hidden">
+            <!-- Network Summary -->
+            <section class="card">
+                <h2>Network Optimization Summary</h2>
+                <div id="network-summary-kpis" class="kpi-container"></div>
+            </section>
+            
+            <!-- Capacity Alerts -->
+            <div id="alerts-section" class="card hidden">
+                <!-- Alerts will be rendered here -->
+            </div>
+            
+            <!-- Current State Analysis -->
+            <section class="card">
+                <h2>Current State Analysis</h2>
+                <div class="analysis-container">
+                    <div class="chart-section">
+                        <h3>Warehouse Utilization Overview</h3>
+                        <div class="chart-container">
+                            <canvas id="utilizationChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="details-section">
+                        <h3>Warehouse Details</h3>
+                        <div id="warehouse-details-table"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Transfer Opportunities -->
+            <section class="card">
+                <h2>Transfer Opportunities</h2>
+                <div id="transfer-opportunities" class="transfer-container">
+                    <!-- Transfer recommendations will be rendered here -->
+                </div>
+            </section>
+            
+            <!-- Scenario Analysis -->
+            <section class="card">
+                <h2>High-Demand Scenario Analysis</h2>
+                <div class="scenario-toggle">
+                    <button id="current-state-btn" class="scenario-btn active">Current State</button>
+                    <button id="scenario-state-btn" class="scenario-btn">High-Demand Scenario</button>
+                </div>
+                <div class="scenario-content">
+                    <div class="chart-container">
+                        <canvas id="scenarioChart"></canvas>
+                    </div>
+                    <div id="scenario-summary" class="scenario-summary">
+                        <!-- Scenario summary will be rendered here -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Product Recommendations -->
+            <section class="card">
+                <h2>Product-Level Recommendations</h2>
+                <div id="product-recommendations" class="product-container">
+                    <!-- Product recommendations will be rendered here -->
+                </div>
+            </section>
+
+            <footer id="metadata-footer"></footer>
+        </div>
+    </main>
+
+    <script src="warehouse_capacity_app.js"></script>
+</body>
+</html>

@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-25T13:58:44.751814",
+    "filters_applied": {
+      "product_level": "category",
+      "horizon_months": 6,
+      "forecast_type": "all",
+      "warehouses": [
+        "All"
+      ]
+    },
+    "product_level": "category",
+    "horizon_months": 6,
+    "data_source": "Product-specific historical data 2017-2022"
+  },
+  "forecasts": {
+    "Sneakers": {
+      "inflows": {
+        "2023-01": {
+          "forecast": 600760.0,
+          "lower": 556466.0,
+          "upper": 647579.0
+        },
+        "2023-02": {
+          "forecast": 437976.0,
+          "lower": 391091.0,
+          "upper": 480502.0
+        },
+        "2023-03": {
+          "forecast": 448302.0,
+          "lower": 403707.0,
+          "upper": 496983.0
+        },
+        "2023-04": {
+          "forecast": 467023.0,
+          "lower": 422554.0,
+          "upper": 510709.0
+        },
+        "2023-05": {
+          "forecast": 460295.0,
+          "lower": 415154.0,
+          "upper": 503889.0
+        },
+        "2023-06": {
+          "forecast": 384389.0,
+          "lower": 336396.0,
+          "upper": 428134.0
+        }
+      },
+      "outflows": {
+        "2023-01": {
+          "forecast": 551948.0,
+          "lower": 501592.0,
+          "upper": 601882.0
+        },
+        "2023-02": {
+          "forecast": 521090.0,
+          "lower": 469742.0,
+          "upper": 568451.0
+        },
+        "2023-03": {
+          "forecast": 472440.0,
+          "lower": 422229.0,
+          "upper": 526278.0
+        },
+        "2023-04": {
+          "forecast": 460914.0,
+          "lower": 409208.0,
+          "upper": 507128.0
+        },
+        "2023-05": {
+          "forecast": 475424.0,
+          "lower": 424178.0,
+          "upper": 523954.0
+        },
+        "2023-06": {
+          "forecast": 421661.0,
+          "lower": 370264.0,
+          "upper": 472760.0
+        }
+      },
+      "net_flow": {
+        "2023-01": {
+          "forecast": 48812.0,
+          "status": "SURPLUS"
+        },
+        "2023-02": {
+          "forecast": -83114.0,
+          "status": "DEFICIT"
+        },
+        "2023-03": {
+          "forecast": -24138.0,
+          "status": "DEFICIT"
+        },
+        "2023-04": {
+          "forecast": 6109.0,
+          "status": "SURPLUS"
+        },
+        "2023-05": {
+          "forecast": -15129.0,
+          "status": "DEFICIT"
+        },
+        "2023-06": {
+          "forecast": -37272.0,
+          "status": "DEFICIT"
+        }
+      },
+      "metrics": {
+        "total_projected_inflow": 2798745.0,
+        "total_projected_outflow": 2903477.0,
+        "net_position": -104732.0,
+        "avg_monthly_inflow": 466458.0,
+        "avg_monthly_outflow": 483913.0
+      }
+    },
+    "Boots": {
+      "inflows": {
+        "2023-01": {
+          "forecast": 285191.0,
+          "lower": 261845.0,
+          "upper": 308064.0
+        },
+        "2023-02": {
+          "forecast": 208201.0,
+          "lower": 186073.0,
+          "upper": 232377.0
+        },
+        "2023-03": {
+          "forecast": 230223.0,
+          "lower": 207027.0,
+          "upper": 252199.0
+        },
+        "2023-04": {
+          "forecast": 240040.0,
+          "lower": 218217.0,
+          "upper": 263685.0
+        },
+        "2023-05": {
+          "forecast": 220595.0,
+          "lower": 198675.0,
+          "upper": 244451.0
+        },
+        "2023-06": {
+          "forecast": 186369.0,
+          "lower": 163183.0,
+          "upper": 209329.0
+        }
+      },
+      "outflows": {
+        "2023-01": {
+          "forecast": 292393.0,
+          "lower": 262333.0,
+          "upper": 321900.0
+        },
+        "2023-02": {
+          "forecast": 249854.0,
+          "lower": 220985.0,
+          "upper": 277464.0
+        },
+        "2023-03": {
+          "forecast": 226750.0,
+          "lower": 196819.0,
+          "upper": 255423.0
+        },
+        "2023-04": {
+          "forecast": 217066.0,
+          "lower": 187395.0,
+          "upper": 246603.0
+        },
+        "2023-05": {
+          "forecast": 243268.0,
+          "lower": 213867.0,
+          "upper": 271007.0
+        },
+        "2023-06": {
+          "forecast": 228481.0,
+          "lower": 198882.0,
+          "upper": 255384.0
+        }
+      },
+      "net_flow": {
+        "2023-01": {
+          "forecast": -7202.0,
+          "status": "DEFICIT"
+        },
+        "2023-02": {
+          "forecast": -41653.0,
+          "status": "DEFICIT"
+        },
+        "2023-03": {
+          "forecast": 3473.0,
+          "status": "SURPLUS"
+        },
+        "2023-04": {
+          "forecast": 22974.0,
+          "status": "SURPLUS"
+        },
+        "2023-05": {
+          "forecast": -22673.0,
+          "status": "DEFICIT"
+        },
+        "2023-06": {
+          "forecast": -42112.0,
+          "status": "DEFICIT"
+        }
+      },
+      "metrics": {
+        "total_projected_inflow": 1370619.0,
+        "total_projected_outflow": 1457812.0,
+        "net_position": -87193.0,
+        "avg_monthly_inflow": 228436.0,
+        "avg_monthly_outflow": 242969.0
+      }
+    },
+    "Shirts": {
+      "inflows": {
+        "2023-01": {
+          "forecast": 189619.0,
+          "lower": 167326.0,
+          "upper": 212023.0
+        },
+        "2023-02": {
+          "forecast": 135495.0,
+          "lower": 113486.0,
+          "upper": 159757.0
+        },
+        "2023-03": {
+          "forecast": 127165.0,
+          "lower": 104776.0,
+          "upper": 150745.0
+        },
+        "2023-04": {
+          "forecast": 156682.0,
+          "lower": 134543.0,
+          "upper": 178449.0
+        },
+        "2023-05": {
+          "forecast": 127147.0,
+          "lower": 104529.0,
+          "upper": 146844.0
+        },
+        "2023-06": {
+          "forecast": 125634.0,
+          "lower": 104525.0,
+          "upper": 148983.0
+        }
+      },
+      "outflows": {
+        "2023-01": {
+          "forecast": 170549.0,
+          "lower": 147571.0,
+          "upper": 192176.0
+        },
+        "2023-02": {
+          "forecast": 148348.0,
+          "lower": 124571.0,
+          "upper": 171173.0
+        },
+        "2023-03": {
+          "forecast": 132235.0,
+          "lower": 110363.0,
+          "upper": 155885.0
+        },
+        "2023-04": {
+          "forecast": 141914.0,
+          "lower": 118568.0,
+          "upper": 166235.0
+        },
+        "2023-05": {
+          "forecast": 158395.0,
+          "lower": 134857.0,
+          "upper": 182864.0
+        },
+        "2023-06": {
+          "forecast": 123349.0,
+          "lower": 99881.0,
+          "upper": 147036.0
+        }
+      },
+      "net_flow": {
+        "2023-01": {
+          "forecast": 19070.0,
+          "status": "SURPLUS"
+        },
+        "2023-02": {
+          "forecast": -12853.0,
+          "status": "DEFICIT"
+        },
+        "2023-03": {
+          "forecast": -5070.0,
+          "status": "DEFICIT"
+        },
+        "2023-04": {
+          "forecast": 14768.0,
+          "status": "SURPLUS"
+        },
+        "2023-05": {
+          "forecast": -31248.0,
+          "status": "DEFICIT"
+        },
+        "2023-06": {
+          "forecast": 2285.0,
+          "status": "SURPLUS"
+        }
+      },
+      "metrics": {
+        "total_projected_inflow": 861742.0,
+        "total_projected_outflow": 874790.0,
+        "net_position": -13048.0,
+        "avg_monthly_inflow": 143624.0,
+        "avg_monthly_outflow": 145798.0
+      }
+    },
+    "Coats": {
+      "inflows": {
+        "2023-01": {
+          "forecast": 193073.0,
+          "lower": 168466.0,
+          "upper": 219520.0
+        },
+        "2023-02": {
+          "forecast": 124652.0,
+          "lower": 99310.0,
+          "upper": 148791.0
+        },
+        "2023-03": {
+          "forecast": 146353.0,
+          "lower": 121333.0,
+          "upper": 171210.0
+        },
+        "2023-04": {
+          "forecast": 140796.0,
+          "lower": 114576.0,
+          "upper": 164578.0
+        },
+        "2023-05": {
+          "forecast": 142210.0,
+          "lower": 117872.0,
+          "upper": 164833.0
+        },
+        "2023-06": {
+          "forecast": 121631.0,
+          "lower": 96186.0,
+          "upper": 147995.0
+        }
+      },
+      "outflows": {
+        "2023-01": {
+          "forecast": 177228.0,
+          "lower": 150836.0,
+          "upper": 203366.0
+        },
+        "2023-02": {
+          "forecast": 147138.0,
+          "lower": 121721.0,
+          "upper": 172155.0
+        },
+        "2023-03": {
+          "forecast": 140668.0,
+          "lower": 116028.0,
+          "upper": 166033.0
+        },
+        "2023-04": {
+          "forecast": 154212.0,
+          "lower": 127034.0,
+          "upper": 181100.0
+        },
+        "2023-05": {
+          "forecast": 137286.0,
+          "lower": 114301.0,
+          "upper": 163402.0
+        },
+        "2023-06": {
+          "forecast": 137838.0,
+          "lower": 110936.0,
+          "upper": 165265.0
+        }
+      },
+      "net_flow": {
+        "2023-01": {
+          "forecast": 15845.0,
+          "status": "SURPLUS"
+        },
+        "2023-02": {
+          "forecast": -22486.0,
+          "status": "DEFICIT"
+        },
+        "2023-03": {
+          "forecast": 5685.0,
+          "status": "SURPLUS"
+        },
+        "2023-04": {
+          "forecast": -13416.0,
+          "status": "DEFICIT"
+        },
+        "2023-05": {
+          "forecast": 4924.0,
+          "status": "SURPLUS"
+        },
+        "2023-06": {
+          "forecast": -16207.0,
+          "status": "DEFICIT"
+        }
+      },
+      "metrics": {
+        "total_projected_inflow": 868715.0,
+        "total_projected_outflow": 894370.0,
+        "net_position": -25655.0,
+        "avg_monthly_inflow": 144786.0,
+        "avg_monthly_outflow": 149062.0
+      }
+    }
+  },
+  "model_performance": {
+    "Sneakers": {
+      "inflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      },
+      "outflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      }
+    },
+    "Boots": {
+      "inflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      },
+      "outflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      }
+    },
+    "Shirts": {
+      "inflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      },
+      "outflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      }
+    },
+    "Coats": {
+      "inflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      },
+      "outflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      }
+    }
+  },
+  "summary": {
+    "total_products_forecasted": 4,
+    "forecast_horizon_months": 6,
+    "network_projected_inflow": 5899821.0,
+    "network_projected_outflow": 6130449.0,
+    "network_net_position": -230628.0,
+    "products_with_surplus": 0,
+    "products_with_deficit": 4
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-26T17:44:25.710290",
+    "scenario_name": "Test Scenario",
+    "scenario_type": "custom",
+    "applied_changes": []
+  },
+  "scenario_comparison": {
+    "baseline": {
+      "capacity_analysis": {
+        "Atlanta": {
+          "warehouse_info": {
+            "name": "Atlanta",
+            "max_capacity": 500000,
+            "current_inventory": 158131,
+            "available_capacity": 341869,
+            "available_capacity_pct": 68.4
+          },
+          "utilization_metrics": {
+            "average_utilization": 29.1,
+            "max_utilization": 43.2,
+            "min_utilization": 21.2,
+            "final_utilization": 31.6,
+            "utilization_range": 22.0
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -1.1,
+            "volatility": 5.6
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              43.2,
+              34.5,
+              28.4,
+              31.2,
+              30.9,
+              25.6,
+              27.2,
+              27.2,
+              21.2,
+              25.2,
+              22.8,
+              31.6
+            ],
+            "inventory_levels": [
+              215909,
+              172728,
+              141898,
+              156214,
+              154453,
+              128093,
+              136019,
+              135893,
+              105927,
+              125821,
+              113909,
+              158131
+            ]
+          }
+        },
+        "Nashville": {
+          "warehouse_info": {
+            "name": "Nashville",
+            "max_capacity": 490000,
+            "current_inventory": 173148,
+            "available_capacity": 316852,
+            "available_capacity_pct": 64.7
+          },
+          "utilization_metrics": {
+            "average_utilization": 31.9,
+            "max_utilization": 41.1,
+            "min_utilization": 23.8,
+            "final_utilization": 35.3,
+            "utilization_range": 17.3
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -0.56,
+            "volatility": 4.9
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              41.1,
+              34.0,
+              33.1,
+              30.8,
+              35.9,
+              24.5,
+              29.3,
+              36.7,
+              23.8,
+              27.0,
+              31.2,
+              35.3
+            ],
+            "inventory_levels": [
+              201239,
+              166724,
+              162271,
+              150897,
+              175955,
+              120242,
+              143606,
+              179911,
+              116531,
+              132540,
+              152849,
+              173148
+            ]
+          }
+        },
+        "Chicago": {
+          "warehouse_info": {
+            "name": "Chicago",
+            "max_capacity": 490000,
+            "current_inventory": 159284,
+            "available_capacity": 330716,
+            "available_capacity_pct": 67.5
+          },
+          "utilization_metrics": {
+            "average_utilization": 33.9,
+            "max_utilization": 44.7,
+            "min_utilization": 25.3,
+            "final_utilization": 32.5,
+            "utilization_range": 19.4
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -0.96,
+            "volatility": 4.6
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              44.7,
+              37.6,
+              37.6,
+              35.9,
+              32.9,
+              31.8,
+              31.2,
+              33.0,
+              25.3,
+              30.2,
+              33.8,
+              32.5
+            ],
+            "inventory_levels": [
+              219162,
+              184185,
+              184036,
+              175677,
+              161293,
+              156038,
+              152817,
+              161494,
+              124071,
+              148061,
+              165421,
+              159284
+            ]
+          }
+        },
+        "NY": {
+          "warehouse_info": {
+            "name": "NY",
+            "max_capacity": 480000,
+            "current_inventory": 166772,
+            "available_capacity": 313228,
+            "available_capacity_pct": 65.3
+          },
+          "utilization_metrics": {
+            "average_utilization": 31.1,
+            "max_utilization": 37.2,
+            "min_utilization": 25.9,
+            "final_utilization": 34.7,
+            "utilization_range": 11.3
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -0.59,
+            "volatility": 4.0
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              36.7,
+              35.2,
+              34.0,
+              37.2,
+              25.9,
+              29.2,
+              28.4,
+              28.3,
+              26.4,
+              27.7,
+              29.0,
+              34.7
+            ],
+            "inventory_levels": [
+              176220,
+              169148,
+              163356,
+              178346,
+              124396,
+              140081,
+              136410,
+              136009,
+              126584,
+              133008,
+              139077,
+              166772
+            ]
+          }
+        },
+        "LA": {
+          "warehouse_info": {
+            "name": "LA",
+            "max_capacity": 475000,
+            "current_inventory": 186114,
+            "available_capacity": 288886,
+            "available_capacity_pct": 60.8
+          },
+          "utilization_metrics": {
+            "average_utilization": 35.9,
+            "max_utilization": 41.0,
+            "min_utilization": 28.2,
+            "final_utilization": 39.2,
+            "utilization_range": 12.8
+          },
+          "trend_analysis": {
+            "trend_direction": "Stable",
+            "trend_slope": -0.12,
+            "volatility": 3.7
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              41.0,
+              35.7,
+              37.4,
+              39.6,
+              34.5,
+              29.8,
+              28.2,
+              38.6,
+              33.8,
+              35.2,
+              37.7,
+              39.2
+            ],
+            "inventory_levels": [
+              194606,
+              169661,
+              177588,
+              187931,
+              163979,
+              141691,
+              133956,
+              183458,
+              160516,
+              167147,
+              179256,
+              186114
+            ]
+          }
+        }
+      },
+      "transfer_opportunities": [],
+      "capacity_alerts": []
+    },
+    "scenario": {
+      "capacity_analysis": {
+        "Atlanta": {
+          "warehouse_info": {
+            "name": "Atlanta",
+            "max_capacity": 500000,
+            "current_inventory": 400000,
+            "available_capacity": 100000,
+            "available_capacity_pct": 20.0
+          },
+          "utilization_metrics": {
+            "average_utilization": 29.1,
+            "max_utilization": 43.2,
+            "min_utilization": 21.2,
+            "final_utilization": 80,
+            "utilization_range": 22.0
+          },
+          "trend_analysis": {
+            "trend_direction": "Increasing",
+            "trend_slope": -1.1,
+            "volatility": 5.6
+          },
+          "risk_assessment": {
+            "level": "LOW",
+            "score": 2,
+            "factors": [
+              "Moderate utilization",
+              "Increasing trend"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              43.2,
+              34.5,
+              28.4,
+              31.2,
+              30.9,
+              25.6,
+              27.2,
+              27.2,
+              21.2,
+              25.2,
+              22.8,
+              31.6
+            ],
+            "inventory_levels": [
+              215909,
+              172728,
+              141898,
+              156214,
+              154453,
+              128093,
+              136019,
+              135893,
+              105927,
+              125821,
+              113909,
+              158131
+            ]
+          }
+        },
+        "Nashville": {
+          "warehouse_info": {
+            "name": "Nashville",
+            "max_capacity": 490000,
+            "current_inventory": 173148,
+            "available_capacity": 316852,
+            "available_capacity_pct": 64.7
+          },
+          "utilization_metrics": {
+            "average_utilization": 31.9,
+            "max_utilization": 41.1,
+            "min_utilization": 23.8,
+            "final_utilization": 35.3,
+            "utilization_range": 17.3
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -0.56,
+            "volatility": 4.9
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              41.1,
+              34.0,
+              33.1,
+              30.8,
+              35.9,
+              24.5,
+              29.3,
+              36.7,
+              23.8,
+              27.0,
+              31.2,
+              35.3
+            ],
+            "inventory_levels": [
+              201239,
+              166724,
+              162271,
+              150897,
+              175955,
+              120242,
+              143606,
+              179911,
+              116531,
+              132540,
+              152849,
+              173148
+            ]
+          }
+        },
+        "Chicago": {
+          "warehouse_info": {
+            "name": "Chicago",
+            "max_capacity": 490000,
+            "current_inventory": 159284,
+            "available_capacity": 330716,
+            "available_capacity_pct": 67.5
+          },
+          "utilization_metrics": {
+            "average_utilization": 33.9,
+            "max_utilization": 44.7,
+            "min_utilization": 25.3,
+            "final_utilization": 32.5,
+            "utilization_range": 19.4
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -0.96,
+            "volatility": 4.6
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              44.7,
+              37.6,
+              37.6,
+              35.9,
+              32.9,
+              31.8,
+              31.2,
+              33.0,
+              25.3,
+              30.2,
+              33.8,
+              32.5
+            ],
+            "inventory_levels": [
+              219162,
+              184185,
+              184036,
+              175677,
+              161293,
+              156038,
+              152817,
+              161494,
+              124071,
+              148061,
+              165421,
+              159284
+            ]
+          }
+        },
+        "NY": {
+          "warehouse_info": {
+            "name": "NY",
+            "max_capacity": 480000,
+            "current_inventory": 166772,
+            "available_capacity": 313228,
+            "available_capacity_pct": 65.3
+          },
+          "utilization_metrics": {
+            "average_utilization": 31.1,
+            "max_utilization": 37.2,
+            "min_utilization": 25.9,
+            "final_utilization": 34.7,
+            "utilization_range": 11.3
+          },
+          "trend_analysis": {
+            "trend_direction": "Decreasing",
+            "trend_slope": -0.59,
+            "volatility": 4.0
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              36.7,
+              35.2,
+              34.0,
+              37.2,
+              25.9,
+              29.2,
+              28.4,
+              28.3,
+              26.4,
+              27.7,
+              29.0,
+              34.7
+            ],
+            "inventory_levels": [
+              176220,
+              169148,
+              163356,
+              178346,
+              124396,
+              140081,
+              136410,
+              136009,
+              126584,
+              133008,
+              139077,
+              166772
+            ]
+          }
+        },
+        "LA": {
+          "warehouse_info": {
+            "name": "LA",
+            "max_capacity": 475000,
+            "current_inventory": 186114,
+            "available_capacity": 288886,
+            "available_capacity_pct": 60.8
+          },
+          "utilization_metrics": {
+            "average_utilization": 35.9,
+            "max_utilization": 41.0,
+            "min_utilization": 28.2,
+            "final_utilization": 39.2,
+            "utilization_range": 12.8
+          },
+          "trend_analysis": {
+            "trend_direction": "Stable",
+            "trend_slope": -0.12,
+            "volatility": 3.7
+          },
+          "risk_assessment": {
+            "level": "MINIMAL",
+            "score": 0,
+            "factors": [
+              "Low risk profile"
+            ]
+          },
+          "timeline_data": {
+            "months": [
+              "2023-01",
+              "2023-02",
+              "2023-03",
+              "2023-04",
+              "2023-05",
+              "2023-06",
+              "2023-07",
+              "2023-08",
+              "2023-09",
+              "2023-10",
+              "2023-11",
+              "2023-12"
+            ],
+            "utilization_pct": [
+              41.0,
+              35.7,
+              37.4,
+              39.6,
+              34.5,
+              29.8,
+              28.2,
+              38.6,
+              33.8,
+              35.2,
+              37.7,
+              39.2
+            ],
+            "inventory_levels": [
+              194606,
+              169661,
+              177588,
+              187931,
+              163979,
+              141691,
+              133956,
+              183458,
+              160516,
+              167147,
+              179256,
+              186114
+            ]
+          }
+        }
+      },
+      "transfer_opportunities": [],
+      "capacity_alerts": [
+        {
+          "type": "CAPACITY_TREND_WARNING",
+          "severity": "MEDIUM",
+          "warehouse": "Atlanta",
+          "message": "Atlanta showing increasing utilization trend - monitor closely",
+          "recommendation": "Prepare contingency plans for capacity management",
+          "priority": 2
+        }
+      ]
+    }
+  },
+  "impact_summary": {
+    "utilization_changes": {
+      "Atlanta": {
+        "baseline": 31.6,
+        "scenario": 80,
+        "change": 48.4
+      },
+      "Nashville": {
+        "baseline": 35.3,
+        "scenario": 35.3,
+        "change": 0.0
+      },
+      "Chicago": {
+        "baseline": 32.5,
+        "scenario": 32.5,
+        "change": 0.0
+      },
+      "NY": {
+        "baseline": 34.7,
+        "scenario": 34.7,
+        "change": 0.0
+      },
+      "LA": {
+        "baseline": 39.2,
+        "scenario": 39.2,
+        "change": 0.0
+      }
+    },
+    "new_alerts_generated": 0,
+    "transfer_opportunities_created": 0,
+    "total_utilization_improvement": 48.4,
+    "cost_impact": {
+      "transfer_costs": 0,
+      "storage_savings": 0,
+      "net_impact": 0
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "description": "Warehouse capacity assumptions for Soles4Souls inventory forecasting",
+    "last_updated": "2025-01-20",
+    "data_source": "Estimated based on historical throughput patterns",
+    "notes": "These are assumptions that should be validated with actual warehouse specifications"
+  },
+  "warehouse_config": {
+    "Atlanta": {
+      "capacity": 500000,
+      "alert_threshold": 0.9,
+      "location": "Atlanta, GA",
+      "notes": "Based on 2.5x historical peak of 197,594 units"
+    },
+    "Nashville": {
+      "capacity": 490000,
+      "alert_threshold": 0.9,
+      "location": "Nashville, TN", 
+      "notes": "Based on 2.5x historical peak of 196,394 units"
+    },
+    "Chicago": {
+      "capacity": 490000,
+      "alert_threshold": 0.9,
+      "location": "Chicago, IL",
+      "notes": "Based on 2.5x historical peak of 195,106 units"
+    },
+    "NY": {
+      "capacity": 480000,
+      "alert_threshold": 0.9,
+      "location": "New York, NY",
+      "notes": "Based on 2.5x historical peak of 192,373 units, space-constrained urban location"
+    },
+    "LA": {
+      "capacity": 475000,
+      "alert_threshold": 0.9,
+      "location": "Los Angeles, CA",
+      "notes": "Based on 2.5x historical peak of 189,660 units"
+    }
+  },
+  "business_rules": {
+    "capacity_utilization": {
+      "optimal_range": [0.6, 0.8],
+      "warning_threshold": 0.9,
+      "critical_threshold": 0.95,
+      "minimum_threshold": 0.1
+    },
+    "transfer_recommendations": {
+      "minimum_transfer_size": 10000,
+      "transfer_trigger_utilization": 0.9,
+      "transfer_target_utilization": 0.6,
+      "max_transfer_percentage": 0.5
+    },
+    "forecasting": {
+      "forecast_horizon_months": 6,
+      "confidence_interval": 0.8,
+      "seasonal_adjustments": true,
+      "minimum_historical_months": 12
+    }
+  },
+  "capacity_estimation_method": {
+    "approach": "Historical throughput analysis",
+    "calculation": "Peak monthly throughput * 3 months buffer",
+    "validation_needed": true,
+    "actual_data_sources": [
+      "Warehouse floor plans",
+      "Storage rack specifications", 
+      "Current utilization reports",
+      "Physical constraints documentation"
+    ]
+  },
+  "alert_thresholds": {
+    "stockout": {
+      "level": "critical",
+      "threshold": 0,
+      "action": "Immediate transfer or emergency procurement"
+    },
+    "low_inventory": {
+      "level": "warning", 
+      "threshold": 0.2,
+      "action": "Monitor closely, prepare for restocking"
+    },
+    "high_utilization": {
+      "level": "warning",
+      "threshold": 0.7,
+      "action": "Consider transfers to other locations"
+    },
+    "over_capacity": {
+      "level": "critical",
+      "threshold": 0.9,
+      "action": "Mandatory transfers or additional storage"
+    }
+  }
+}

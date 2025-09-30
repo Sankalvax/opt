@@ -1,0 +1,353 @@
+{
+  "forecast_date": "2025-09-25T12:55:36.310600",
+  "network_summary": {
+    "total_network_inventory": 708115.4350510301,
+    "total_network_capacity": 2435000,
+    "warehouses_at_risk": [],
+    "warehouses_with_excess": [],
+    "critical_months": [],
+    "transfer_opportunities": []
+  },
+  "warehouse_details": {
+    "Atlanta": {
+      "capacity": 500000,
+      "monthly_forecast": [
+        {
+          "month": "2023-01",
+          "starting_inventory": 191379,
+          "supply_forecast": 259102.92009396292,
+          "demand_forecast": 233958.5073328375,
+          "net_flow": 25144.412761125423,
+          "ending_inventory": 216523.41276112542,
+          "capacity_utilization": 0.4330468255222508,
+          "status": "OK"
+        },
+        {
+          "month": "2023-02",
+          "starting_inventory": 216523.41276112542,
+          "supply_forecast": 211449.17559264685,
+          "demand_forecast": 248763.4252782108,
+          "net_flow": -37314.24968556396,
+          "ending_inventory": 179209.1630755615,
+          "capacity_utilization": 0.35841832615112296,
+          "status": "OK"
+        },
+        {
+          "month": "2023-03",
+          "starting_inventory": 179209.1630755615,
+          "supply_forecast": 179778.82963132707,
+          "demand_forecast": 211970.945850131,
+          "net_flow": -32192.116218803916,
+          "ending_inventory": 147017.0468567576,
+          "capacity_utilization": 0.2940340937135152,
+          "status": "OK"
+        },
+        {
+          "month": "2023-04",
+          "starting_inventory": 147017.0468567576,
+          "supply_forecast": 195296.42355480188,
+          "demand_forecast": 181225.53750419104,
+          "net_flow": 14070.886050610832,
+          "ending_inventory": 161087.9329073684,
+          "capacity_utilization": 0.3221758658147368,
+          "status": "OK"
+        },
+        {
+          "month": "2023-05",
+          "starting_inventory": 161087.9329073684,
+          "supply_forecast": 211333.38881749235,
+          "demand_forecast": 212784.3697000925,
+          "net_flow": -1450.9808826001536,
+          "ending_inventory": 159636.95202476825,
+          "capacity_utilization": 0.3192739040495365,
+          "status": "OK"
+        },
+        {
+          "month": "2023-06",
+          "starting_inventory": 159636.95202476825,
+          "supply_forecast": 169676.26809783303,
+          "demand_forecast": 195373.55734263602,
+          "net_flow": -25697.28924480299,
+          "ending_inventory": 133939.66277996523,
+          "capacity_utilization": 0.2678793255599305,
+          "status": "OK"
+        }
+      ],
+      "alerts": [],
+      "final_inventory": 133939.66277996523,
+      "final_utilization": 0.2678793255599305
+    },
+    "Nashville": {
+      "capacity": 490000,
+      "monthly_forecast": [
+        {
+          "month": "2023-01",
+          "starting_inventory": 190216,
+          "supply_forecast": 257148.23314024438,
+          "demand_forecast": 244351.74489287933,
+          "net_flow": 12796.48824736505,
+          "ending_inventory": 203012.48824736505,
+          "capacity_utilization": 0.4143112005048266,
+          "status": "OK"
+        },
+        {
+          "month": "2023-02",
+          "starting_inventory": 203012.48824736505,
+          "supply_forecast": 180535.70443320426,
+          "demand_forecast": 216093.1655207489,
+          "net_flow": -35557.46108754465,
+          "ending_inventory": 167455.0271598204,
+          "capacity_utilization": 0.3417449533873886,
+          "status": "OK"
+        },
+        {
+          "month": "2023-03",
+          "starting_inventory": 167455.0271598204,
+          "supply_forecast": 186730.02371263923,
+          "demand_forecast": 188732.2534509812,
+          "net_flow": -2002.2297383419645,
+          "ending_inventory": 165452.79742147846,
+          "capacity_utilization": 0.33765877024791524,
+          "status": "OK"
+        },
+        {
+          "month": "2023-04",
+          "starting_inventory": 165452.79742147846,
+          "supply_forecast": 168596.30661504352,
+          "demand_forecast": 178074.51723852265,
+          "net_flow": -9478.210623479128,
+          "ending_inventory": 155974.58679799933,
+          "capacity_utilization": 0.3183154832612231,
+          "status": "OK"
+        },
+        {
+          "month": "2023-05",
+          "starting_inventory": 155974.58679799933,
+          "supply_forecast": 217363.41545552821,
+          "demand_forecast": 191343.73322483175,
+          "net_flow": 26019.68223069646,
+          "ending_inventory": 181994.26902869577,
+          "capacity_utilization": 0.37141687556876685,
+          "status": "OK"
+        },
+        {
+          "month": "2023-06",
+          "starting_inventory": 181994.26902869577,
+          "supply_forecast": 140236.36434402055,
+          "demand_forecast": 195899.97360104098,
+          "net_flow": -55663.609257020435,
+          "ending_inventory": 126330.65977167533,
+          "capacity_utilization": 0.25781767300341907,
+          "status": "OK"
+        }
+      ],
+      "alerts": [],
+      "final_inventory": 126330.65977167533,
+      "final_utilization": 0.25781767300341907
+    },
+    "NY": {
+      "capacity": 480000,
+      "monthly_forecast": [
+        {
+          "month": "2023-01",
+          "starting_inventory": 186321,
+          "supply_forecast": 229064.88297417207,
+          "demand_forecast": 235127.08856264275,
+          "net_flow": -6062.205588470679,
+          "ending_inventory": 180258.79441152932,
+          "capacity_utilization": 0.3755391550240194,
+          "status": "OK"
+        },
+        {
+          "month": "2023-02",
+          "starting_inventory": 180258.79441152932,
+          "supply_forecast": 178385.18406339307,
+          "demand_forecast": 195762.98569330527,
+          "net_flow": -17377.801629912195,
+          "ending_inventory": 162880.9927816171,
+          "capacity_utilization": 0.33933540162836895,
+          "status": "OK"
+        },
+        {
+          "month": "2023-03",
+          "starting_inventory": 162880.9927816171,
+          "supply_forecast": 174235.46723730388,
+          "demand_forecast": 173273.04709507478,
+          "net_flow": 962.4201422290935,
+          "ending_inventory": 163843.41292384616,
+          "capacity_utilization": 0.3413404435913462,
+          "status": "OK"
+        },
+        {
+          "month": "2023-04",
+          "starting_inventory": 163843.41292384616,
+          "supply_forecast": 209231.94215369056,
+          "demand_forecast": 189506.64825506153,
+          "net_flow": 19725.293898629025,
+          "ending_inventory": 183568.7068224752,
+          "capacity_utilization": 0.38243480588015666,
+          "status": "OK"
+        },
+        {
+          "month": "2023-05",
+          "starting_inventory": 183568.7068224752,
+          "supply_forecast": 164622.6293587982,
+          "demand_forecast": 216685.467361602,
+          "net_flow": -52062.838002803794,
+          "ending_inventory": 131505.8688196714,
+          "capacity_utilization": 0.2739705600409821,
+          "status": "OK"
+        },
+        {
+          "month": "2023-06",
+          "starting_inventory": 131505.8688196714,
+          "supply_forecast": 165506.41170488807,
+          "demand_forecast": 150068.54176134377,
+          "net_flow": 15437.869943544298,
+          "ending_inventory": 146943.73876321566,
+          "capacity_utilization": 0.3061327890900326,
+          "status": "OK"
+        }
+      ],
+      "alerts": [],
+      "final_inventory": 146943.73876321566,
+      "final_utilization": 0.3061327890900326
+    },
+    "LA": {
+      "capacity": 475000,
+      "monthly_forecast": [
+        {
+          "month": "2023-01",
+          "starting_inventory": 183694,
+          "supply_forecast": 241514.58074944676,
+          "demand_forecast": 230979.47817067878,
+          "net_flow": 10535.102578767983,
+          "ending_inventory": 194229.10257876798,
+          "capacity_utilization": 0.40890337385003783,
+          "status": "OK"
+        },
+        {
+          "month": "2023-02",
+          "starting_inventory": 194229.10257876798,
+          "supply_forecast": 169583.55189047666,
+          "demand_forecast": 185213.5221988441,
+          "net_flow": -15629.970308367425,
+          "ending_inventory": 178599.13227040056,
+          "capacity_utilization": 0.3759981732008433,
+          "status": "OK"
+        },
+        {
+          "month": "2023-03",
+          "starting_inventory": 178599.13227040056,
+          "supply_forecast": 200766.63517122084,
+          "demand_forecast": 193911.9788493438,
+          "net_flow": 6854.656321877032,
+          "ending_inventory": 185453.7885922776,
+          "capacity_utilization": 0.39042902861532125,
+          "status": "OK"
+        },
+        {
+          "month": "2023-04",
+          "starting_inventory": 185453.7885922776,
+          "supply_forecast": 217564.85279128418,
+          "demand_forecast": 207942.0530849955,
+          "net_flow": 9622.799706288672,
+          "ending_inventory": 195076.58829856626,
+          "capacity_utilization": 0.4106875543127711,
+          "status": "OK"
+        },
+        {
+          "month": "2023-05",
+          "starting_inventory": 195076.58829856626,
+          "supply_forecast": 171132.48627044214,
+          "demand_forecast": 195424.86752241396,
+          "net_flow": -24292.38125197182,
+          "ending_inventory": 170784.20704659447,
+          "capacity_utilization": 0.359545699045462,
+          "status": "OK"
+        },
+        {
+          "month": "2023-06",
+          "starting_inventory": 170784.20704659447,
+          "supply_forecast": 166400.13542544848,
+          "demand_forecast": 188596.68442854087,
+          "net_flow": -22196.549003092397,
+          "ending_inventory": 148587.65804350207,
+          "capacity_utilization": 0.31281612219684646,
+          "status": "OK"
+        }
+      ],
+      "alerts": [],
+      "final_inventory": 148587.65804350207,
+      "final_utilization": 0.31281612219684646
+    },
+    "Chicago": {
+      "capacity": 490000,
+      "monthly_forecast": [
+        {
+          "month": "2023-01",
+          "starting_inventory": 188969,
+          "supply_forecast": 281654.1551612648,
+          "demand_forecast": 247859.3705777322,
+          "net_flow": 33794.78458353263,
+          "ending_inventory": 222763.78458353263,
+          "capacity_utilization": 0.4546199685378217,
+          "status": "OK"
+        },
+        {
+          "month": "2023-02",
+          "starting_inventory": 222763.78458353263,
+          "supply_forecast": 166245.75127761345,
+          "demand_forecast": 220730.36065755287,
+          "net_flow": -54484.609379939415,
+          "ending_inventory": 168279.1752035932,
+          "capacity_utilization": 0.34342688817059835,
+          "status": "OK"
+        },
+        {
+          "month": "2023-03",
+          "starting_inventory": 168279.1752035932,
+          "supply_forecast": 210584.51443762158,
+          "demand_forecast": 204375.54705759636,
+          "net_flow": 6208.96738002522,
+          "ending_inventory": 174488.14258361844,
+          "capacity_utilization": 0.3560982501706499,
+          "status": "OK"
+        },
+        {
+          "month": "2023-04",
+          "starting_inventory": 174488.14258361844,
+          "supply_forecast": 213676.61990383774,
+          "demand_forecast": 217525.1268646995,
+          "net_flow": -3848.506960861763,
+          "ending_inventory": 170639.6356227567,
+          "capacity_utilization": 0.34824415433215655,
+          "status": "OK"
+        },
+        {
+          "month": "2023-05",
+          "starting_inventory": 170639.6356227567,
+          "supply_forecast": 185736.69242259167,
+          "demand_forecast": 198274.25944823152,
+          "net_flow": -12537.567025639844,
+          "ending_inventory": 158102.0685971169,
+          "capacity_utilization": 0.32265728285125894,
+          "status": "OK"
+        },
+        {
+          "month": "2023-06",
+          "starting_inventory": 158102.0685971169,
+          "supply_forecast": 175776.55937760381,
+          "demand_forecast": 181564.91228204887,
+          "net_flow": -5788.352904445055,
+          "ending_inventory": 152313.7156926718,
+          "capacity_utilization": 0.31084431774014654,
+          "status": "OK"
+        }
+      ],
+      "alerts": [],
+      "final_inventory": 152313.7156926718,
+      "final_utilization": 0.31084431774014654
+    }
+  }
+}

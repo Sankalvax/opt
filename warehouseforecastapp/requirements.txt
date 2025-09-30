@@ -1,0 +1,17 @@
+pandas==2.2.2
+numpy==1.26.4
+prophet==1.1.5
+matplotlib==3.8.4
+seaborn==0.13.2
+python-dateutil==2.9.0
+cmdstanpy==1.2.4
+holidays==0.45
+LunarCalendar==0.0.9
+convertdate==2.4.0
+hijri-converter==2.3.1
+korean-lunar-calendar==0.3.1
+plotly==5.20.0
+scikit-learn==1.4.2
+flask==3.0.3
+flask-cors==4.0.1
+requests==2.31.0

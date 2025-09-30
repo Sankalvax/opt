@@ -1,0 +1,3815 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-30T09:53:07.390400",
+    "forecast_horizon_months": 12,
+    "forecast_type": "warehouse_product_rolling_inventory"
+  },
+  "warehouses": {
+    "Atlanta": {
+      "products": {
+        "Footwear": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 195470,
+                "lower": 173798,
+                "upper": 217236
+              },
+              "2023-02": {
+                "forecast": 140305,
+                "lower": 116591,
+                "upper": 163779
+              },
+              "2023-03": {
+                "forecast": 137949,
+                "lower": 115879,
+                "upper": 163033
+              },
+              "2023-04": {
+                "forecast": 131142,
+                "lower": 109173,
+                "upper": 155053
+              },
+              "2023-05": {
+                "forecast": 160894,
+                "lower": 138649,
+                "upper": 186322
+              },
+              "2023-06": {
+                "forecast": 121785,
+                "lower": 101347,
+                "upper": 144349
+              },
+              "2023-07": {
+                "forecast": 138492,
+                "lower": 115619,
+                "upper": 161226
+              },
+              "2023-08": {
+                "forecast": 148655,
+                "lower": 124897,
+                "upper": 170509
+              },
+              "2023-09": {
+                "forecast": 108082,
+                "lower": 83749,
+                "upper": 130447
+              },
+              "2023-10": {
+                "forecast": 159452,
+                "lower": 136520,
+                "upper": 182257
+              },
+              "2023-11": {
+                "forecast": 143842,
+                "lower": 122526,
+                "upper": 168234
+              },
+              "2023-12": {
+                "forecast": 197553,
+                "lower": 175691,
+                "upper": 221556
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 168296,
+                "lower": 143567,
+                "upper": 193958
+              },
+              "2023-02": {
+                "forecast": 178974,
+                "lower": 156479,
+                "upper": 202407
+              },
+              "2023-03": {
+                "forecast": 155873,
+                "lower": 132799,
+                "upper": 180330
+              },
+              "2023-04": {
+                "forecast": 126337,
+                "lower": 102039,
+                "upper": 152421
+              },
+              "2023-05": {
+                "forecast": 154327,
+                "lower": 129941,
+                "upper": 180845
+              },
+              "2023-06": {
+                "forecast": 142830,
+                "lower": 117799,
+                "upper": 166491
+              },
+              "2023-07": {
+                "forecast": 129826,
+                "lower": 105018,
+                "upper": 154241
+              },
+              "2023-08": {
+                "forecast": 144505,
+                "lower": 119171,
+                "upper": 169973
+              },
+              "2023-09": {
+                "forecast": 145646,
+                "lower": 120986,
+                "upper": 170017
+              },
+              "2023-10": {
+                "forecast": 130715,
+                "lower": 105173,
+                "upper": 155836
+              },
+              "2023-11": {
+                "forecast": 160866,
+                "lower": 135314,
+                "upper": 186340
+              },
+              "2023-12": {
+                "forecast": 157538,
+                "lower": 130869,
+                "upper": 182154
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 27174,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -38669,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -17924,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": 4805,
+                "status": "SURPLUS"
+              },
+              "2023-05": {
+                "forecast": 6567,
+                "status": "SURPLUS"
+              },
+              "2023-06": {
+                "forecast": -21045,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": 8666,
+                "status": "SURPLUS"
+              },
+              "2023-08": {
+                "forecast": 4150,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -37564,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 28737,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": -17023,
+                "status": "DEFICIT"
+              },
+              "2023-12": {
+                "forecast": 40015,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 134091,
+              "inflow": 195470,
+              "outflow": 168296,
+              "net_flow": 27174,
+              "ending_position": 161266,
+              "capacity_utilization": 32.3
+            },
+            "2023-02": {
+              "starting_position": 161266,
+              "inflow": 140305,
+              "outflow": 178974,
+              "net_flow": -38669,
+              "ending_position": 122597,
+              "capacity_utilization": 24.5
+            },
+            "2023-03": {
+              "starting_position": 122597,
+              "inflow": 137949,
+              "outflow": 155873,
+              "net_flow": -17924,
+              "ending_position": 104672,
+              "capacity_utilization": 20.9
+            },
+            "2023-04": {
+              "starting_position": 104672,
+              "inflow": 131142,
+              "outflow": 126337,
+              "net_flow": 4805,
+              "ending_position": 109477,
+              "capacity_utilization": 21.9
+            },
+            "2023-05": {
+              "starting_position": 109477,
+              "inflow": 160894,
+              "outflow": 154327,
+              "net_flow": 6567,
+              "ending_position": 116045,
+              "capacity_utilization": 23.2
+            },
+            "2023-06": {
+              "starting_position": 116045,
+              "inflow": 121785,
+              "outflow": 142830,
+              "net_flow": -21045,
+              "ending_position": 95000,
+              "capacity_utilization": 19.0
+            },
+            "2023-07": {
+              "starting_position": 95000,
+              "inflow": 138492,
+              "outflow": 129826,
+              "net_flow": 8666,
+              "ending_position": 103666,
+              "capacity_utilization": 20.7
+            },
+            "2023-08": {
+              "starting_position": 103666,
+              "inflow": 148655,
+              "outflow": 144505,
+              "net_flow": 4150,
+              "ending_position": 107816,
+              "capacity_utilization": 21.6
+            },
+            "2023-09": {
+              "starting_position": 107816,
+              "inflow": 108082,
+              "outflow": 145646,
+              "net_flow": -37564,
+              "ending_position": 70252,
+              "capacity_utilization": 14.1
+            },
+            "2023-10": {
+              "starting_position": 70252,
+              "inflow": 159452,
+              "outflow": 130715,
+              "net_flow": 28737,
+              "ending_position": 98989,
+              "capacity_utilization": 19.8
+            },
+            "2023-11": {
+              "starting_position": 98989,
+              "inflow": 143842,
+              "outflow": 160866,
+              "net_flow": -17023,
+              "ending_position": 81965,
+              "capacity_utilization": 16.4
+            },
+            "2023-12": {
+              "starting_position": 81965,
+              "inflow": 197553,
+              "outflow": 157538,
+              "net_flow": 40015,
+              "ending_position": 121980,
+              "capacity_utilization": 24.4
+            }
+          },
+          "alerts": []
+        },
+        "Apparel": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 65051,
+                "lower": 49962,
+                "upper": 79649
+              },
+              "2023-02": {
+                "forecast": 60868,
+                "lower": 46003,
+                "upper": 76307
+              },
+              "2023-03": {
+                "forecast": 45723,
+                "lower": 30623,
+                "upper": 61147
+              },
+              "2023-04": {
+                "forecast": 66476,
+                "lower": 51428,
+                "upper": 81365
+              },
+              "2023-05": {
+                "forecast": 51041,
+                "lower": 36553,
+                "upper": 63957
+              },
+              "2023-06": {
+                "forecast": 47243,
+                "lower": 32133,
+                "upper": 61505
+              },
+              "2023-07": {
+                "forecast": 56390,
+                "lower": 41240,
+                "upper": 70396
+              },
+              "2023-08": {
+                "forecast": 50700,
+                "lower": 36341,
+                "upper": 65351
+              },
+              "2023-09": {
+                "forecast": 51916,
+                "lower": 37316,
+                "upper": 66773
+              },
+              "2023-10": {
+                "forecast": 50674,
+                "lower": 35045,
+                "upper": 66390
+              },
+              "2023-11": {
+                "forecast": 66670,
+                "lower": 52575,
+                "upper": 81511
+              },
+              "2023-12": {
+                "forecast": 75649,
+                "lower": 60574,
+                "upper": 90547
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 67696,
+                "lower": 53503,
+                "upper": 81411
+              },
+              "2023-02": {
+                "forecast": 65380,
+                "lower": 51034,
+                "upper": 79985
+              },
+              "2023-03": {
+                "forecast": 58630,
+                "lower": 45018,
+                "upper": 70966
+              },
+              "2023-04": {
+                "forecast": 56965,
+                "lower": 43927,
+                "upper": 70556
+              },
+              "2023-05": {
+                "forecast": 59369,
+                "lower": 46570,
+                "upper": 74139
+              },
+              "2023-06": {
+                "forecast": 52558,
+                "lower": 38364,
+                "upper": 65808
+              },
+              "2023-07": {
+                "forecast": 57131,
+                "lower": 43711,
+                "upper": 69439
+              },
+              "2023-08": {
+                "forecast": 54976,
+                "lower": 40976,
+                "upper": 68797
+              },
+              "2023-09": {
+                "forecast": 44317,
+                "lower": 30875,
+                "upper": 58101
+              },
+              "2023-10": {
+                "forecast": 59518,
+                "lower": 45921,
+                "upper": 73406
+              },
+              "2023-11": {
+                "forecast": 61559,
+                "lower": 48244,
+                "upper": 76186
+              },
+              "2023-12": {
+                "forecast": 71442,
+                "lower": 57832,
+                "upper": 84476
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": -2645,
+                "status": "DEFICIT"
+              },
+              "2023-02": {
+                "forecast": -4512,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -12907,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": 9511,
+                "status": "SURPLUS"
+              },
+              "2023-05": {
+                "forecast": -8328,
+                "status": "DEFICIT"
+              },
+              "2023-06": {
+                "forecast": -5315,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": -741,
+                "status": "DEFICIT"
+              },
+              "2023-08": {
+                "forecast": -4276,
+                "status": "DEFICIT"
+              },
+              "2023-09": {
+                "forecast": 7599,
+                "status": "SURPLUS"
+              },
+              "2023-10": {
+                "forecast": -8844,
+                "status": "DEFICIT"
+              },
+              "2023-11": {
+                "forecast": 5111,
+                "status": "SURPLUS"
+              },
+              "2023-12": {
+                "forecast": 4207,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 57288,
+              "inflow": 65051,
+              "outflow": 67696,
+              "net_flow": -2645,
+              "ending_position": 54643,
+              "capacity_utilization": 10.9
+            },
+            "2023-02": {
+              "starting_position": 54643,
+              "inflow": 60868,
+              "outflow": 65380,
+              "net_flow": -4512,
+              "ending_position": 50132,
+              "capacity_utilization": 10.0
+            },
+            "2023-03": {
+              "starting_position": 50132,
+              "inflow": 45723,
+              "outflow": 58630,
+              "net_flow": -12907,
+              "ending_position": 37225,
+              "capacity_utilization": 7.4
+            },
+            "2023-04": {
+              "starting_position": 37225,
+              "inflow": 66476,
+              "outflow": 56965,
+              "net_flow": 9511,
+              "ending_position": 46736,
+              "capacity_utilization": 9.3
+            },
+            "2023-05": {
+              "starting_position": 46736,
+              "inflow": 51041,
+              "outflow": 59369,
+              "net_flow": -8328,
+              "ending_position": 38408,
+              "capacity_utilization": 7.7
+            },
+            "2023-06": {
+              "starting_position": 38408,
+              "inflow": 47243,
+              "outflow": 52558,
+              "net_flow": -5315,
+              "ending_position": 33093,
+              "capacity_utilization": 6.6
+            },
+            "2023-07": {
+              "starting_position": 33093,
+              "inflow": 56390,
+              "outflow": 57131,
+              "net_flow": -741,
+              "ending_position": 32353,
+              "capacity_utilization": 6.5
+            },
+            "2023-08": {
+              "starting_position": 32353,
+              "inflow": 50700,
+              "outflow": 54976,
+              "net_flow": -4276,
+              "ending_position": 28077,
+              "capacity_utilization": 5.6
+            },
+            "2023-09": {
+              "starting_position": 28077,
+              "inflow": 51916,
+              "outflow": 44317,
+              "net_flow": 7599,
+              "ending_position": 35676,
+              "capacity_utilization": 7.1
+            },
+            "2023-10": {
+              "starting_position": 35676,
+              "inflow": 50674,
+              "outflow": 59518,
+              "net_flow": -8844,
+              "ending_position": 26832,
+              "capacity_utilization": 5.4
+            },
+            "2023-11": {
+              "starting_position": 26832,
+              "inflow": 66670,
+              "outflow": 61559,
+              "net_flow": 5111,
+              "ending_position": 31943,
+              "capacity_utilization": 6.4
+            },
+            "2023-12": {
+              "starting_position": 31943,
+              "inflow": 75649,
+              "outflow": 71442,
+              "net_flow": 4207,
+              "ending_position": 36150,
+              "capacity_utilization": 7.2
+            }
+          },
+          "alerts": []
+        }
+      },
+      "warehouse_total": {},
+      "capacity_info": {
+        "capacity": 500000,
+        "alert_threshold": 0.9,
+        "location": "Atlanta, GA",
+        "notes": "Based on 2.5x historical peak of 197,594 units"
+      },
+      "monthly_positions": [
+        {
+          "date": "2023-01",
+          "products": {
+            "Footwear": {
+              "before": 134091,
+              "after": 161266
+            },
+            "Apparel": {
+              "before": 57288,
+              "after": 54643
+            }
+          },
+          "warehouse_total_before": 191379.27896999998,
+          "warehouse_total_after": 215909.1803628211,
+          "capacity_utilization": 43.2
+        },
+        {
+          "date": "2023-02",
+          "products": {
+            "Footwear": {
+              "before": 161266,
+              "after": 122597
+            },
+            "Apparel": {
+              "before": 54643,
+              "after": 50132
+            }
+          },
+          "warehouse_total_before": 215909.1803628211,
+          "warehouse_total_after": 172728.22537326222,
+          "capacity_utilization": 34.5
+        },
+        {
+          "date": "2023-03",
+          "products": {
+            "Footwear": {
+              "before": 122597,
+              "after": 104672
+            },
+            "Apparel": {
+              "before": 50132,
+              "after": 37225
+            }
+          },
+          "warehouse_total_before": 172728.22537326222,
+          "warehouse_total_after": 141897.6054090232,
+          "capacity_utilization": 28.4
+        },
+        {
+          "date": "2023-04",
+          "products": {
+            "Footwear": {
+              "before": 104672,
+              "after": 109477
+            },
+            "Apparel": {
+              "before": 37225,
+              "after": 46736
+            }
+          },
+          "warehouse_total_before": 141897.6054090232,
+          "warehouse_total_after": 156213.93083697668,
+          "capacity_utilization": 31.2
+        },
+        {
+          "date": "2023-05",
+          "products": {
+            "Footwear": {
+              "before": 109477,
+              "after": 116045
+            },
+            "Apparel": {
+              "before": 46736,
+              "after": 38408
+            }
+          },
+          "warehouse_total_before": 156213.93083697668,
+          "warehouse_total_after": 154452.88505513902,
+          "capacity_utilization": 30.9
+        },
+        {
+          "date": "2023-06",
+          "products": {
+            "Footwear": {
+              "before": 116045,
+              "after": 95000
+            },
+            "Apparel": {
+              "before": 38408,
+              "after": 33093
+            }
+          },
+          "warehouse_total_before": 154452.88505513902,
+          "warehouse_total_after": 128093.0045779641,
+          "capacity_utilization": 25.6
+        },
+        {
+          "date": "2023-07",
+          "products": {
+            "Footwear": {
+              "before": 95000,
+              "after": 103666
+            },
+            "Apparel": {
+              "before": 33093,
+              "after": 32353
+            }
+          },
+          "warehouse_total_before": 128093.0045779641,
+          "warehouse_total_after": 136018.56913449525,
+          "capacity_utilization": 27.2
+        },
+        {
+          "date": "2023-08",
+          "products": {
+            "Footwear": {
+              "before": 103666,
+              "after": 107816
+            },
+            "Apparel": {
+              "before": 32353,
+              "after": 28077
+            }
+          },
+          "warehouse_total_before": 136018.56913449525,
+          "warehouse_total_after": 135892.85472344788,
+          "capacity_utilization": 27.2
+        },
+        {
+          "date": "2023-09",
+          "products": {
+            "Footwear": {
+              "before": 107816,
+              "after": 70252
+            },
+            "Apparel": {
+              "before": 28077,
+              "after": 35676
+            }
+          },
+          "warehouse_total_before": 135892.85472344788,
+          "warehouse_total_after": 105927.32751224942,
+          "capacity_utilization": 21.2
+        },
+        {
+          "date": "2023-10",
+          "products": {
+            "Footwear": {
+              "before": 70252,
+              "after": 98989
+            },
+            "Apparel": {
+              "before": 35676,
+              "after": 26832
+            }
+          },
+          "warehouse_total_before": 105927.32751224942,
+          "warehouse_total_after": 125820.8352213415,
+          "capacity_utilization": 25.2
+        },
+        {
+          "date": "2023-11",
+          "products": {
+            "Footwear": {
+              "before": 98989,
+              "after": 81965
+            },
+            "Apparel": {
+              "before": 26832,
+              "after": 31943
+            }
+          },
+          "warehouse_total_before": 125820.8352213415,
+          "warehouse_total_after": 113908.54328277579,
+          "capacity_utilization": 22.8
+        },
+        {
+          "date": "2023-12",
+          "products": {
+            "Footwear": {
+              "before": 81965,
+              "after": 121980
+            },
+            "Apparel": {
+              "before": 31943,
+              "after": 36150
+            }
+          },
+          "warehouse_total_before": 113908.54328277579,
+          "warehouse_total_after": 158130.61074015254,
+          "capacity_utilization": 31.6
+        }
+      ]
+    },
+    "Nashville": {
+      "products": {
+        "Footwear": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 165967,
+                "lower": 147500,
+                "upper": 186217
+              },
+              "2023-02": {
+                "forecast": 129166,
+                "lower": 111084,
+                "upper": 149946
+              },
+              "2023-03": {
+                "forecast": 122883,
+                "lower": 102531,
+                "upper": 142411
+              },
+              "2023-04": {
+                "forecast": 123022,
+                "lower": 102385,
+                "upper": 141761
+              },
+              "2023-05": {
+                "forecast": 148076,
+                "lower": 128223,
+                "upper": 166129
+              },
+              "2023-06": {
+                "forecast": 84269,
+                "lower": 65096,
+                "upper": 104375
+              },
+              "2023-07": {
+                "forecast": 119526,
+                "lower": 100091,
+                "upper": 139066
+              },
+              "2023-08": {
+                "forecast": 157598,
+                "lower": 138589,
+                "upper": 176914
+              },
+              "2023-09": {
+                "forecast": 117861,
+                "lower": 98708,
+                "upper": 138487
+              },
+              "2023-10": {
+                "forecast": 125179,
+                "lower": 106138,
+                "upper": 145638
+              },
+              "2023-11": {
+                "forecast": 163407,
+                "lower": 143691,
+                "upper": 182810
+              },
+              "2023-12": {
+                "forecast": 155927,
+                "lower": 136988,
+                "upper": 174609
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 162631,
+                "lower": 139419,
+                "upper": 188362
+              },
+              "2023-02": {
+                "forecast": 152296,
+                "lower": 129759,
+                "upper": 175278
+              },
+              "2023-03": {
+                "forecast": 126497,
+                "lower": 103932,
+                "upper": 151140
+              },
+              "2023-04": {
+                "forecast": 125814,
+                "lower": 102599,
+                "upper": 150368
+              },
+              "2023-05": {
+                "forecast": 136479,
+                "lower": 114826,
+                "upper": 158924
+              },
+              "2023-06": {
+                "forecast": 131925,
+                "lower": 109122,
+                "upper": 154221
+              },
+              "2023-07": {
+                "forecast": 92672,
+                "lower": 68066,
+                "upper": 115111
+              },
+              "2023-08": {
+                "forecast": 141357,
+                "lower": 117185,
+                "upper": 164373
+              },
+              "2023-09": {
+                "forecast": 149455,
+                "lower": 126275,
+                "upper": 171912
+              },
+              "2023-10": {
+                "forecast": 115338,
+                "lower": 93739,
+                "upper": 137645
+              },
+              "2023-11": {
+                "forecast": 144871,
+                "lower": 122449,
+                "upper": 168855
+              },
+              "2023-12": {
+                "forecast": 144454,
+                "lower": 121509,
+                "upper": 166920
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 3337,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -23130,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -3614,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": -2792,
+                "status": "DEFICIT"
+              },
+              "2023-05": {
+                "forecast": 11597,
+                "status": "SURPLUS"
+              },
+              "2023-06": {
+                "forecast": -47656,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": 26854,
+                "status": "SURPLUS"
+              },
+              "2023-08": {
+                "forecast": 16241,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -31594,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 9841,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": 18535,
+                "status": "SURPLUS"
+              },
+              "2023-12": {
+                "forecast": 11473,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 133277,
+              "inflow": 165967,
+              "outflow": 162631,
+              "net_flow": 3337,
+              "ending_position": 136613,
+              "capacity_utilization": 27.9
+            },
+            "2023-02": {
+              "starting_position": 136613,
+              "inflow": 129166,
+              "outflow": 152296,
+              "net_flow": -23130,
+              "ending_position": 113483,
+              "capacity_utilization": 23.2
+            },
+            "2023-03": {
+              "starting_position": 113483,
+              "inflow": 122883,
+              "outflow": 126497,
+              "net_flow": -3614,
+              "ending_position": 109869,
+              "capacity_utilization": 22.4
+            },
+            "2023-04": {
+              "starting_position": 109869,
+              "inflow": 123022,
+              "outflow": 125814,
+              "net_flow": -2792,
+              "ending_position": 107077,
+              "capacity_utilization": 21.9
+            },
+            "2023-05": {
+              "starting_position": 107077,
+              "inflow": 148076,
+              "outflow": 136479,
+              "net_flow": 11597,
+              "ending_position": 118674,
+              "capacity_utilization": 24.2
+            },
+            "2023-06": {
+              "starting_position": 118674,
+              "inflow": 84269,
+              "outflow": 131925,
+              "net_flow": -47656,
+              "ending_position": 71019,
+              "capacity_utilization": 14.5
+            },
+            "2023-07": {
+              "starting_position": 71019,
+              "inflow": 119526,
+              "outflow": 92672,
+              "net_flow": 26854,
+              "ending_position": 97872,
+              "capacity_utilization": 20.0
+            },
+            "2023-08": {
+              "starting_position": 97872,
+              "inflow": 157598,
+              "outflow": 141357,
+              "net_flow": 16241,
+              "ending_position": 114114,
+              "capacity_utilization": 23.3
+            },
+            "2023-09": {
+              "starting_position": 114114,
+              "inflow": 117861,
+              "outflow": 149455,
+              "net_flow": -31594,
+              "ending_position": 82520,
+              "capacity_utilization": 16.8
+            },
+            "2023-10": {
+              "starting_position": 82520,
+              "inflow": 125179,
+              "outflow": 115338,
+              "net_flow": 9841,
+              "ending_position": 92361,
+              "capacity_utilization": 18.8
+            },
+            "2023-11": {
+              "starting_position": 92361,
+              "inflow": 163407,
+              "outflow": 144871,
+              "net_flow": 18535,
+              "ending_position": 110896,
+              "capacity_utilization": 22.6
+            },
+            "2023-12": {
+              "starting_position": 110896,
+              "inflow": 155927,
+              "outflow": 144454,
+              "net_flow": 11473,
+              "ending_position": 122369,
+              "capacity_utilization": 25.0
+            }
+          },
+          "alerts": []
+        },
+        "Apparel": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 90794,
+                "lower": 77298,
+                "upper": 104424
+              },
+              "2023-02": {
+                "forecast": 58548,
+                "lower": 44281,
+                "upper": 72340
+              },
+              "2023-03": {
+                "forecast": 60063,
+                "lower": 46222,
+                "upper": 73818
+              },
+              "2023-04": {
+                "forecast": 43916,
+                "lower": 30118,
+                "upper": 56771
+              },
+              "2023-05": {
+                "forecast": 68733,
+                "lower": 54661,
+                "upper": 82445
+              },
+              "2023-06": {
+                "forecast": 56623,
+                "lower": 42398,
+                "upper": 70430
+              },
+              "2023-07": {
+                "forecast": 63695,
+                "lower": 49508,
+                "upper": 78310
+              },
+              "2023-08": {
+                "forecast": 85018,
+                "lower": 71914,
+                "upper": 98929
+              },
+              "2023-09": {
+                "forecast": 43549,
+                "lower": 28555,
+                "upper": 57568
+              },
+              "2023-10": {
+                "forecast": 53397,
+                "lower": 39568,
+                "upper": 66266
+              },
+              "2023-11": {
+                "forecast": 49267,
+                "lower": 36683,
+                "upper": 62674
+              },
+              "2023-12": {
+                "forecast": 73430,
+                "lower": 59464,
+                "upper": 87958
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 83109,
+                "lower": 70062,
+                "upper": 97001
+              },
+              "2023-02": {
+                "forecast": 69933,
+                "lower": 54777,
+                "upper": 84273
+              },
+              "2023-03": {
+                "forecast": 60901,
+                "lower": 46079,
+                "upper": 74333
+              },
+              "2023-04": {
+                "forecast": 52499,
+                "lower": 39250,
+                "upper": 68007
+              },
+              "2023-05": {
+                "forecast": 55272,
+                "lower": 42121,
+                "upper": 69615
+              },
+              "2023-06": {
+                "forecast": 64680,
+                "lower": 50038,
+                "upper": 78278
+              },
+              "2023-07": {
+                "forecast": 67185,
+                "lower": 53215,
+                "upper": 81636
+              },
+              "2023-08": {
+                "forecast": 64954,
+                "lower": 51360,
+                "upper": 79326
+              },
+              "2023-09": {
+                "forecast": 75336,
+                "lower": 61693,
+                "upper": 90460
+              },
+              "2023-10": {
+                "forecast": 47229,
+                "lower": 33035,
+                "upper": 60876
+              },
+              "2023-11": {
+                "forecast": 47494,
+                "lower": 33063,
+                "upper": 61703
+              },
+              "2023-12": {
+                "forecast": 64603,
+                "lower": 51785,
+                "upper": 78615
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 7686,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -11385,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -838,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": -8583,
+                "status": "DEFICIT"
+              },
+              "2023-05": {
+                "forecast": 13462,
+                "status": "SURPLUS"
+              },
+              "2023-06": {
+                "forecast": -8057,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": -3490,
+                "status": "DEFICIT"
+              },
+              "2023-08": {
+                "forecast": 20064,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -31787,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 6168,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": 1773,
+                "status": "SURPLUS"
+              },
+              "2023-12": {
+                "forecast": 8827,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 56940,
+              "inflow": 90794,
+              "outflow": 83109,
+              "net_flow": 7686,
+              "ending_position": 64626,
+              "capacity_utilization": 13.2
+            },
+            "2023-02": {
+              "starting_position": 64626,
+              "inflow": 58548,
+              "outflow": 69933,
+              "net_flow": -11385,
+              "ending_position": 53241,
+              "capacity_utilization": 10.9
+            },
+            "2023-03": {
+              "starting_position": 53241,
+              "inflow": 60063,
+              "outflow": 60901,
+              "net_flow": -838,
+              "ending_position": 52402,
+              "capacity_utilization": 10.7
+            },
+            "2023-04": {
+              "starting_position": 52402,
+              "inflow": 43916,
+              "outflow": 52499,
+              "net_flow": -8583,
+              "ending_position": 43819,
+              "capacity_utilization": 8.9
+            },
+            "2023-05": {
+              "starting_position": 43819,
+              "inflow": 68733,
+              "outflow": 55272,
+              "net_flow": 13462,
+              "ending_position": 57281,
+              "capacity_utilization": 11.7
+            },
+            "2023-06": {
+              "starting_position": 57281,
+              "inflow": 56623,
+              "outflow": 64680,
+              "net_flow": -8057,
+              "ending_position": 49224,
+              "capacity_utilization": 10.0
+            },
+            "2023-07": {
+              "starting_position": 49224,
+              "inflow": 63695,
+              "outflow": 67185,
+              "net_flow": -3490,
+              "ending_position": 45734,
+              "capacity_utilization": 9.3
+            },
+            "2023-08": {
+              "starting_position": 45734,
+              "inflow": 85018,
+              "outflow": 64954,
+              "net_flow": 20064,
+              "ending_position": 65798,
+              "capacity_utilization": 13.4
+            },
+            "2023-09": {
+              "starting_position": 65798,
+              "inflow": 43549,
+              "outflow": 75336,
+              "net_flow": -31787,
+              "ending_position": 34011,
+              "capacity_utilization": 6.9
+            },
+            "2023-10": {
+              "starting_position": 34011,
+              "inflow": 53397,
+              "outflow": 47229,
+              "net_flow": 6168,
+              "ending_position": 40179,
+              "capacity_utilization": 8.2
+            },
+            "2023-11": {
+              "starting_position": 40179,
+              "inflow": 49267,
+              "outflow": 47494,
+              "net_flow": 1773,
+              "ending_position": 41953,
+              "capacity_utilization": 8.6
+            },
+            "2023-12": {
+              "starting_position": 41953,
+              "inflow": 73430,
+              "outflow": 64603,
+              "net_flow": 8827,
+              "ending_position": 50779,
+              "capacity_utilization": 10.4
+            }
+          },
+          "alerts": []
+        }
+      },
+      "warehouse_total": {},
+      "capacity_info": {
+        "capacity": 490000,
+        "alert_threshold": 0.9,
+        "location": "Nashville, TN",
+        "notes": "Based on 2.5x historical peak of 196,394 units"
+      },
+      "monthly_positions": [
+        {
+          "date": "2023-01",
+          "products": {
+            "Footwear": {
+              "before": 133277,
+              "after": 136613
+            },
+            "Apparel": {
+              "before": 56940,
+              "after": 64626
+            }
+          },
+          "warehouse_total_before": 190216.71963,
+          "warehouse_total_after": 201238.7864355479,
+          "capacity_utilization": 41.1
+        },
+        {
+          "date": "2023-02",
+          "products": {
+            "Footwear": {
+              "before": 136613,
+              "after": 113483
+            },
+            "Apparel": {
+              "before": 64626,
+              "after": 53241
+            }
+          },
+          "warehouse_total_before": 201238.7864355479,
+          "warehouse_total_after": 166723.70428440688,
+          "capacity_utilization": 34.0
+        },
+        {
+          "date": "2023-03",
+          "products": {
+            "Footwear": {
+              "before": 113483,
+              "after": 109869
+            },
+            "Apparel": {
+              "before": 53241,
+              "after": 52402
+            }
+          },
+          "warehouse_total_before": 166723.70428440688,
+          "warehouse_total_after": 162271.15257165025,
+          "capacity_utilization": 33.1
+        },
+        {
+          "date": "2023-04",
+          "products": {
+            "Footwear": {
+              "before": 109869,
+              "after": 107077
+            },
+            "Apparel": {
+              "before": 52402,
+              "after": 43819
+            }
+          },
+          "warehouse_total_before": 162271.15257165025,
+          "warehouse_total_after": 150896.79624896732,
+          "capacity_utilization": 30.8
+        },
+        {
+          "date": "2023-05",
+          "products": {
+            "Footwear": {
+              "before": 107077,
+              "after": 118674
+            },
+            "Apparel": {
+              "before": 43819,
+              "after": 57281
+            }
+          },
+          "warehouse_total_before": 150896.79624896732,
+          "warehouse_total_after": 175955.4897775796,
+          "capacity_utilization": 35.9
+        },
+        {
+          "date": "2023-06",
+          "products": {
+            "Footwear": {
+              "before": 118674,
+              "after": 71019
+            },
+            "Apparel": {
+              "before": 57281,
+              "after": 49224
+            }
+          },
+          "warehouse_total_before": 175955.4897775796,
+          "warehouse_total_after": 120242.41947536604,
+          "capacity_utilization": 24.5
+        },
+        {
+          "date": "2023-07",
+          "products": {
+            "Footwear": {
+              "before": 71019,
+              "after": 97872
+            },
+            "Apparel": {
+              "before": 49224,
+              "after": 45734
+            }
+          },
+          "warehouse_total_before": 120242.41947536604,
+          "warehouse_total_after": 143606.00584333672,
+          "capacity_utilization": 29.3
+        },
+        {
+          "date": "2023-08",
+          "products": {
+            "Footwear": {
+              "before": 97872,
+              "after": 114114
+            },
+            "Apparel": {
+              "before": 45734,
+              "after": 65798
+            }
+          },
+          "warehouse_total_before": 143606.00584333672,
+          "warehouse_total_after": 179911.48255184444,
+          "capacity_utilization": 36.7
+        },
+        {
+          "date": "2023-09",
+          "products": {
+            "Footwear": {
+              "before": 114114,
+              "after": 82520
+            },
+            "Apparel": {
+              "before": 65798,
+              "after": 34011
+            }
+          },
+          "warehouse_total_before": 179911.48255184444,
+          "warehouse_total_after": 116530.61811925774,
+          "capacity_utilization": 23.8
+        },
+        {
+          "date": "2023-10",
+          "products": {
+            "Footwear": {
+              "before": 82520,
+              "after": 92361
+            },
+            "Apparel": {
+              "before": 34011,
+              "after": 40179
+            }
+          },
+          "warehouse_total_before": 116530.61811925774,
+          "warehouse_total_after": 132540.36989692066,
+          "capacity_utilization": 27.0
+        },
+        {
+          "date": "2023-11",
+          "products": {
+            "Footwear": {
+              "before": 92361,
+              "after": 110896
+            },
+            "Apparel": {
+              "before": 40179,
+              "after": 41953
+            }
+          },
+          "warehouse_total_before": 132540.36989692066,
+          "warehouse_total_after": 152848.87474740512,
+          "capacity_utilization": 31.2
+        },
+        {
+          "date": "2023-12",
+          "products": {
+            "Footwear": {
+              "before": 110896,
+              "after": 122369
+            },
+            "Apparel": {
+              "before": 41953,
+              "after": 50779
+            }
+          },
+          "warehouse_total_before": 152848.87474740512,
+          "warehouse_total_after": 173148.3165396724,
+          "capacity_utilization": 35.3
+        }
+      ]
+    },
+    "Chicago": {
+      "products": {
+        "Footwear": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 193672,
+                "lower": 173619,
+                "upper": 215028
+              },
+              "2023-02": {
+                "forecast": 145687,
+                "lower": 123926,
+                "upper": 165930
+              },
+              "2023-03": {
+                "forecast": 138382,
+                "lower": 118523,
+                "upper": 158012
+              },
+              "2023-04": {
+                "forecast": 139529,
+                "lower": 119887,
+                "upper": 159689
+              },
+              "2023-05": {
+                "forecast": 138958,
+                "lower": 118360,
+                "upper": 160672
+              },
+              "2023-06": {
+                "forecast": 129911,
+                "lower": 109393,
+                "upper": 150567
+              },
+              "2023-07": {
+                "forecast": 140010,
+                "lower": 118469,
+                "upper": 160971
+              },
+              "2023-08": {
+                "forecast": 153505,
+                "lower": 131613,
+                "upper": 172767
+              },
+              "2023-09": {
+                "forecast": 109052,
+                "lower": 87807,
+                "upper": 129270
+              },
+              "2023-10": {
+                "forecast": 151233,
+                "lower": 129996,
+                "upper": 173326
+              },
+              "2023-11": {
+                "forecast": 156311,
+                "lower": 135797,
+                "upper": 177091
+              },
+              "2023-12": {
+                "forecast": 172033,
+                "lower": 150229,
+                "upper": 194197
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 176320,
+                "lower": 153486,
+                "upper": 196858
+              },
+              "2023-02": {
+                "forecast": 162414,
+                "lower": 141689,
+                "upper": 183215
+              },
+              "2023-03": {
+                "forecast": 149844,
+                "lower": 128421,
+                "upper": 171603
+              },
+              "2023-04": {
+                "forecast": 143401,
+                "lower": 122337,
+                "upper": 164310
+              },
+              "2023-05": {
+                "forecast": 143180,
+                "lower": 122763,
+                "upper": 163769
+              },
+              "2023-06": {
+                "forecast": 131411,
+                "lower": 110772,
+                "upper": 153980
+              },
+              "2023-07": {
+                "forecast": 150302,
+                "lower": 128440,
+                "upper": 170520
+              },
+              "2023-08": {
+                "forecast": 145366,
+                "lower": 124332,
+                "upper": 166920
+              },
+              "2023-09": {
+                "forecast": 144540,
+                "lower": 122624,
+                "upper": 166784
+              },
+              "2023-10": {
+                "forecast": 130167,
+                "lower": 108049,
+                "upper": 152777
+              },
+              "2023-11": {
+                "forecast": 133576,
+                "lower": 112448,
+                "upper": 155194
+              },
+              "2023-12": {
+                "forecast": 180213,
+                "lower": 159675,
+                "upper": 202535
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 17352,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -16727,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -11462,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": -3871,
+                "status": "DEFICIT"
+              },
+              "2023-05": {
+                "forecast": -4221,
+                "status": "DEFICIT"
+              },
+              "2023-06": {
+                "forecast": -1499,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": -10292,
+                "status": "DEFICIT"
+              },
+              "2023-08": {
+                "forecast": 8139,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -35487,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 21065,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": 22735,
+                "status": "SURPLUS"
+              },
+              "2023-12": {
+                "forecast": -8179,
+                "status": "DEFICIT"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 132403,
+              "inflow": 193672,
+              "outflow": 176320,
+              "net_flow": 17352,
+              "ending_position": 149755,
+              "capacity_utilization": 30.6
+            },
+            "2023-02": {
+              "starting_position": 149755,
+              "inflow": 145687,
+              "outflow": 162414,
+              "net_flow": -16727,
+              "ending_position": 133027,
+              "capacity_utilization": 27.1
+            },
+            "2023-03": {
+              "starting_position": 133027,
+              "inflow": 138382,
+              "outflow": 149844,
+              "net_flow": -11462,
+              "ending_position": 121565,
+              "capacity_utilization": 24.8
+            },
+            "2023-04": {
+              "starting_position": 121565,
+              "inflow": 139529,
+              "outflow": 143401,
+              "net_flow": -3871,
+              "ending_position": 117694,
+              "capacity_utilization": 24.0
+            },
+            "2023-05": {
+              "starting_position": 117694,
+              "inflow": 138958,
+              "outflow": 143180,
+              "net_flow": -4221,
+              "ending_position": 113473,
+              "capacity_utilization": 23.2
+            },
+            "2023-06": {
+              "starting_position": 113473,
+              "inflow": 129911,
+              "outflow": 131411,
+              "net_flow": -1499,
+              "ending_position": 111973,
+              "capacity_utilization": 22.9
+            },
+            "2023-07": {
+              "starting_position": 111973,
+              "inflow": 140010,
+              "outflow": 150302,
+              "net_flow": -10292,
+              "ending_position": 101681,
+              "capacity_utilization": 20.8
+            },
+            "2023-08": {
+              "starting_position": 101681,
+              "inflow": 153505,
+              "outflow": 145366,
+              "net_flow": 8139,
+              "ending_position": 109820,
+              "capacity_utilization": 22.4
+            },
+            "2023-09": {
+              "starting_position": 109820,
+              "inflow": 109052,
+              "outflow": 144540,
+              "net_flow": -35487,
+              "ending_position": 74333,
+              "capacity_utilization": 15.2
+            },
+            "2023-10": {
+              "starting_position": 74333,
+              "inflow": 151233,
+              "outflow": 130167,
+              "net_flow": 21065,
+              "ending_position": 95398,
+              "capacity_utilization": 19.5
+            },
+            "2023-11": {
+              "starting_position": 95398,
+              "inflow": 156311,
+              "outflow": 133576,
+              "net_flow": 22735,
+              "ending_position": 118133,
+              "capacity_utilization": 24.1
+            },
+            "2023-12": {
+              "starting_position": 118133,
+              "inflow": 172033,
+              "outflow": 180213,
+              "net_flow": -8179,
+              "ending_position": 109954,
+              "capacity_utilization": 22.4
+            }
+          },
+          "alerts": []
+        },
+        "Apparel": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 82001,
+                "lower": 63991,
+                "upper": 100149
+              },
+              "2023-02": {
+                "forecast": 54396,
+                "lower": 36333,
+                "upper": 71934
+              },
+              "2023-03": {
+                "forecast": 59456,
+                "lower": 41767,
+                "upper": 76421
+              },
+              "2023-04": {
+                "forecast": 65555,
+                "lower": 47560,
+                "upper": 83110
+              },
+              "2023-05": {
+                "forecast": 42889,
+                "lower": 25505,
+                "upper": 60925
+              },
+              "2023-06": {
+                "forecast": 46119,
+                "lower": 28691,
+                "upper": 63467
+              },
+              "2023-07": {
+                "forecast": 54944,
+                "lower": 37209,
+                "upper": 72223
+              },
+              "2023-08": {
+                "forecast": 59801,
+                "lower": 41466,
+                "upper": 77704
+              },
+              "2023-09": {
+                "forecast": 57813,
+                "lower": 40320,
+                "upper": 75578
+              },
+              "2023-10": {
+                "forecast": 69412,
+                "lower": 52064,
+                "upper": 86306
+              },
+              "2023-11": {
+                "forecast": 45722,
+                "lower": 27656,
+                "upper": 63108
+              },
+              "2023-12": {
+                "forecast": 68517,
+                "lower": 50200,
+                "upper": 85679
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 69160,
+                "lower": 52375,
+                "upper": 84591
+              },
+              "2023-02": {
+                "forecast": 72646,
+                "lower": 55592,
+                "upper": 89071
+              },
+              "2023-03": {
+                "forecast": 48142,
+                "lower": 31787,
+                "upper": 64700
+              },
+              "2023-04": {
+                "forecast": 70043,
+                "lower": 52697,
+                "upper": 87034
+              },
+              "2023-05": {
+                "forecast": 53051,
+                "lower": 35095,
+                "upper": 68711
+              },
+              "2023-06": {
+                "forecast": 49874,
+                "lower": 33733,
+                "upper": 66778
+              },
+              "2023-07": {
+                "forecast": 47873,
+                "lower": 30543,
+                "upper": 65427
+              },
+              "2023-08": {
+                "forecast": 59263,
+                "lower": 42063,
+                "upper": 76315
+              },
+              "2023-09": {
+                "forecast": 59748,
+                "lower": 43565,
+                "upper": 76835
+              },
+              "2023-10": {
+                "forecast": 66486,
+                "lower": 49886,
+                "upper": 82911
+              },
+              "2023-11": {
+                "forecast": 51098,
+                "lower": 32989,
+                "upper": 69573
+              },
+              "2023-12": {
+                "forecast": 66474,
+                "lower": 48643,
+                "upper": 82150
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 12841,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -18250,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": 11314,
+                "status": "SURPLUS"
+              },
+              "2023-04": {
+                "forecast": -4488,
+                "status": "DEFICIT"
+              },
+              "2023-05": {
+                "forecast": -10162,
+                "status": "DEFICIT"
+              },
+              "2023-06": {
+                "forecast": -3756,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": 7070,
+                "status": "SURPLUS"
+              },
+              "2023-08": {
+                "forecast": 538,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -1936,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 2926,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": -5375,
+                "status": "DEFICIT"
+              },
+              "2023-12": {
+                "forecast": 2042,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 56567,
+              "inflow": 82001,
+              "outflow": 69160,
+              "net_flow": 12841,
+              "ending_position": 69407,
+              "capacity_utilization": 14.2
+            },
+            "2023-02": {
+              "starting_position": 69407,
+              "inflow": 54396,
+              "outflow": 72646,
+              "net_flow": -18250,
+              "ending_position": 51157,
+              "capacity_utilization": 10.4
+            },
+            "2023-03": {
+              "starting_position": 51157,
+              "inflow": 59456,
+              "outflow": 48142,
+              "net_flow": 11314,
+              "ending_position": 62471,
+              "capacity_utilization": 12.7
+            },
+            "2023-04": {
+              "starting_position": 62471,
+              "inflow": 65555,
+              "outflow": 70043,
+              "net_flow": -4488,
+              "ending_position": 57983,
+              "capacity_utilization": 11.8
+            },
+            "2023-05": {
+              "starting_position": 57983,
+              "inflow": 42889,
+              "outflow": 53051,
+              "net_flow": -10162,
+              "ending_position": 47821,
+              "capacity_utilization": 9.8
+            },
+            "2023-06": {
+              "starting_position": 47821,
+              "inflow": 46119,
+              "outflow": 49874,
+              "net_flow": -3756,
+              "ending_position": 44065,
+              "capacity_utilization": 9.0
+            },
+            "2023-07": {
+              "starting_position": 44065,
+              "inflow": 54944,
+              "outflow": 47873,
+              "net_flow": 7070,
+              "ending_position": 51135,
+              "capacity_utilization": 10.4
+            },
+            "2023-08": {
+              "starting_position": 51135,
+              "inflow": 59801,
+              "outflow": 59263,
+              "net_flow": 538,
+              "ending_position": 51674,
+              "capacity_utilization": 10.5
+            },
+            "2023-09": {
+              "starting_position": 51674,
+              "inflow": 57813,
+              "outflow": 59748,
+              "net_flow": -1936,
+              "ending_position": 49738,
+              "capacity_utilization": 10.2
+            },
+            "2023-10": {
+              "starting_position": 49738,
+              "inflow": 69412,
+              "outflow": 66486,
+              "net_flow": 2926,
+              "ending_position": 52663,
+              "capacity_utilization": 10.7
+            },
+            "2023-11": {
+              "starting_position": 52663,
+              "inflow": 45722,
+              "outflow": 51098,
+              "net_flow": -5375,
+              "ending_position": 47288,
+              "capacity_utilization": 9.7
+            },
+            "2023-12": {
+              "starting_position": 47288,
+              "inflow": 68517,
+              "outflow": 66474,
+              "net_flow": 2042,
+              "ending_position": 49330,
+              "capacity_utilization": 10.1
+            }
+          },
+          "alerts": []
+        }
+      },
+      "warehouse_total": {},
+      "capacity_info": {
+        "capacity": 490000,
+        "alert_threshold": 0.9,
+        "location": "Chicago, IL",
+        "notes": "Based on 2.5x historical peak of 195,106 units"
+      },
+      "monthly_positions": [
+        {
+          "date": "2023-01",
+          "products": {
+            "Footwear": {
+              "before": 132403,
+              "after": 149755
+            },
+            "Apparel": {
+              "before": 56567,
+              "after": 69407
+            }
+          },
+          "warehouse_total_before": 188969.50788,
+          "warehouse_total_after": 219161.9185151965,
+          "capacity_utilization": 44.7
+        },
+        {
+          "date": "2023-02",
+          "products": {
+            "Footwear": {
+              "before": 149755,
+              "after": 133027
+            },
+            "Apparel": {
+              "before": 69407,
+              "after": 51157
+            }
+          },
+          "warehouse_total_before": 219161.9185151965,
+          "warehouse_total_after": 184184.8249460055,
+          "capacity_utilization": 37.6
+        },
+        {
+          "date": "2023-03",
+          "products": {
+            "Footwear": {
+              "before": 133027,
+              "after": 121565
+            },
+            "Apparel": {
+              "before": 51157,
+              "after": 62471
+            }
+          },
+          "warehouse_total_before": 184184.8249460055,
+          "warehouse_total_after": 184036.3527626203,
+          "capacity_utilization": 37.6
+        },
+        {
+          "date": "2023-04",
+          "products": {
+            "Footwear": {
+              "before": 121565,
+              "after": 117694
+            },
+            "Apparel": {
+              "before": 62471,
+              "after": 57983
+            }
+          },
+          "warehouse_total_before": 184036.3527626203,
+          "warehouse_total_after": 175677.11979853385,
+          "capacity_utilization": 35.9
+        },
+        {
+          "date": "2023-05",
+          "products": {
+            "Footwear": {
+              "before": 117694,
+              "after": 113473
+            },
+            "Apparel": {
+              "before": 57983,
+              "after": 47821
+            }
+          },
+          "warehouse_total_before": 175677.11979853385,
+          "warehouse_total_after": 161293.3716240655,
+          "capacity_utilization": 32.9
+        },
+        {
+          "date": "2023-06",
+          "products": {
+            "Footwear": {
+              "before": 113473,
+              "after": 111973
+            },
+            "Apparel": {
+              "before": 47821,
+              "after": 44065
+            }
+          },
+          "warehouse_total_before": 161293.3716240655,
+          "warehouse_total_after": 156038.24857742252,
+          "capacity_utilization": 31.8
+        },
+        {
+          "date": "2023-07",
+          "products": {
+            "Footwear": {
+              "before": 111973,
+              "after": 101681
+            },
+            "Apparel": {
+              "before": 44065,
+              "after": 51135
+            }
+          },
+          "warehouse_total_before": 156038.24857742252,
+          "warehouse_total_after": 152816.8698883643,
+          "capacity_utilization": 31.2
+        },
+        {
+          "date": "2023-08",
+          "products": {
+            "Footwear": {
+              "before": 101681,
+              "after": 109820
+            },
+            "Apparel": {
+              "before": 51135,
+              "after": 51674
+            }
+          },
+          "warehouse_total_before": 152816.8698883643,
+          "warehouse_total_after": 161493.98887368626,
+          "capacity_utilization": 33.0
+        },
+        {
+          "date": "2023-09",
+          "products": {
+            "Footwear": {
+              "before": 109820,
+              "after": 74333
+            },
+            "Apparel": {
+              "before": 51674,
+              "after": 49738
+            }
+          },
+          "warehouse_total_before": 161493.98887368626,
+          "warehouse_total_after": 124070.76823108201,
+          "capacity_utilization": 25.3
+        },
+        {
+          "date": "2023-10",
+          "products": {
+            "Footwear": {
+              "before": 74333,
+              "after": 95398
+            },
+            "Apparel": {
+              "before": 49738,
+              "after": 52663
+            }
+          },
+          "warehouse_total_before": 124070.76823108201,
+          "warehouse_total_after": 148061.40790667254,
+          "capacity_utilization": 30.2
+        },
+        {
+          "date": "2023-11",
+          "products": {
+            "Footwear": {
+              "before": 95398,
+              "after": 118133
+            },
+            "Apparel": {
+              "before": 52663,
+              "after": 47288
+            }
+          },
+          "warehouse_total_before": 148061.40790667254,
+          "warehouse_total_after": 165421.04767842783,
+          "capacity_utilization": 33.8
+        },
+        {
+          "date": "2023-12",
+          "products": {
+            "Footwear": {
+              "before": 118133,
+              "after": 109954
+            },
+            "Apparel": {
+              "before": 47288,
+              "after": 49330
+            }
+          },
+          "warehouse_total_before": 165421.04767842783,
+          "warehouse_total_after": 159284.02031190583,
+          "capacity_utilization": 32.5
+        }
+      ]
+    },
+    "NY": {
+      "products": {
+        "Footwear": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 156163,
+                "lower": 133716,
+                "upper": 178387
+              },
+              "2023-02": {
+                "forecast": 140003,
+                "lower": 117975,
+                "upper": 161041
+              },
+              "2023-03": {
+                "forecast": 122392,
+                "lower": 98092,
+                "upper": 146107
+              },
+              "2023-04": {
+                "forecast": 138932,
+                "lower": 115083,
+                "upper": 161528
+              },
+              "2023-05": {
+                "forecast": 117779,
+                "lower": 94204,
+                "upper": 142246
+              },
+              "2023-06": {
+                "forecast": 120019,
+                "lower": 96531,
+                "upper": 144604
+              },
+              "2023-07": {
+                "forecast": 97562,
+                "lower": 73947,
+                "upper": 121256
+              },
+              "2023-08": {
+                "forecast": 140724,
+                "lower": 117208,
+                "upper": 164123
+              },
+              "2023-09": {
+                "forecast": 130345,
+                "lower": 105819,
+                "upper": 155485
+              },
+              "2023-10": {
+                "forecast": 122377,
+                "lower": 98311,
+                "upper": 147026
+              },
+              "2023-11": {
+                "forecast": 125230,
+                "lower": 102166,
+                "upper": 147566
+              },
+              "2023-12": {
+                "forecast": 200845,
+                "lower": 177455,
+                "upper": 224837
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 174080,
+                "lower": 149059,
+                "upper": 197802
+              },
+              "2023-02": {
+                "forecast": 141972,
+                "lower": 117871,
+                "upper": 168461
+              },
+              "2023-03": {
+                "forecast": 124942,
+                "lower": 100648,
+                "upper": 149208
+              },
+              "2023-04": {
+                "forecast": 138642,
+                "lower": 115025,
+                "upper": 162615
+              },
+              "2023-05": {
+                "forecast": 147134,
+                "lower": 123373,
+                "upper": 171284
+              },
+              "2023-06": {
+                "forecast": 111759,
+                "lower": 86838,
+                "upper": 134756
+              },
+              "2023-07": {
+                "forecast": 120435,
+                "lower": 96617,
+                "upper": 146621
+              },
+              "2023-08": {
+                "forecast": 109081,
+                "lower": 84610,
+                "upper": 134904
+              },
+              "2023-09": {
+                "forecast": 136051,
+                "lower": 112124,
+                "upper": 159126
+              },
+              "2023-10": {
+                "forecast": 144189,
+                "lower": 118732,
+                "upper": 167950
+              },
+              "2023-11": {
+                "forecast": 109956,
+                "lower": 86080,
+                "upper": 135238
+              },
+              "2023-12": {
+                "forecast": 163233,
+                "lower": 138320,
+                "upper": 188117
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": -17917,
+                "status": "DEFICIT"
+              },
+              "2023-02": {
+                "forecast": -1969,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -2550,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": 290,
+                "status": "SURPLUS"
+              },
+              "2023-05": {
+                "forecast": -29355,
+                "status": "DEFICIT"
+              },
+              "2023-06": {
+                "forecast": 8260,
+                "status": "SURPLUS"
+              },
+              "2023-07": {
+                "forecast": -22874,
+                "status": "DEFICIT"
+              },
+              "2023-08": {
+                "forecast": 31643,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -5707,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": -21813,
+                "status": "DEFICIT"
+              },
+              "2023-11": {
+                "forecast": 15274,
+                "status": "SURPLUS"
+              },
+              "2023-12": {
+                "forecast": 37612,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 130548,
+              "inflow": 156163,
+              "outflow": 174080,
+              "net_flow": -17917,
+              "ending_position": 112631,
+              "capacity_utilization": 23.5
+            },
+            "2023-02": {
+              "starting_position": 112631,
+              "inflow": 140003,
+              "outflow": 141972,
+              "net_flow": -1969,
+              "ending_position": 110662,
+              "capacity_utilization": 23.1
+            },
+            "2023-03": {
+              "starting_position": 110662,
+              "inflow": 122392,
+              "outflow": 124942,
+              "net_flow": -2550,
+              "ending_position": 108112,
+              "capacity_utilization": 22.5
+            },
+            "2023-04": {
+              "starting_position": 108112,
+              "inflow": 138932,
+              "outflow": 138642,
+              "net_flow": 290,
+              "ending_position": 108401,
+              "capacity_utilization": 22.6
+            },
+            "2023-05": {
+              "starting_position": 108401,
+              "inflow": 117779,
+              "outflow": 147134,
+              "net_flow": -29355,
+              "ending_position": 79046,
+              "capacity_utilization": 16.5
+            },
+            "2023-06": {
+              "starting_position": 79046,
+              "inflow": 120019,
+              "outflow": 111759,
+              "net_flow": 8260,
+              "ending_position": 87307,
+              "capacity_utilization": 18.2
+            },
+            "2023-07": {
+              "starting_position": 87307,
+              "inflow": 97562,
+              "outflow": 120435,
+              "net_flow": -22874,
+              "ending_position": 64433,
+              "capacity_utilization": 13.4
+            },
+            "2023-08": {
+              "starting_position": 64433,
+              "inflow": 140724,
+              "outflow": 109081,
+              "net_flow": 31643,
+              "ending_position": 96075,
+              "capacity_utilization": 20.0
+            },
+            "2023-09": {
+              "starting_position": 96075,
+              "inflow": 130345,
+              "outflow": 136051,
+              "net_flow": -5707,
+              "ending_position": 90369,
+              "capacity_utilization": 18.8
+            },
+            "2023-10": {
+              "starting_position": 90369,
+              "inflow": 122377,
+              "outflow": 144189,
+              "net_flow": -21813,
+              "ending_position": 68556,
+              "capacity_utilization": 14.3
+            },
+            "2023-11": {
+              "starting_position": 68556,
+              "inflow": 125230,
+              "outflow": 109956,
+              "net_flow": 15274,
+              "ending_position": 83830,
+              "capacity_utilization": 17.5
+            },
+            "2023-12": {
+              "starting_position": 83830,
+              "inflow": 200845,
+              "outflow": 163233,
+              "net_flow": 37612,
+              "ending_position": 121442,
+              "capacity_utilization": 25.3
+            }
+          },
+          "alerts": []
+        },
+        "Apparel": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 69116,
+                "lower": 57225,
+                "upper": 83728
+              },
+              "2023-02": {
+                "forecast": 54847,
+                "lower": 40978,
+                "upper": 67419
+              },
+              "2023-03": {
+                "forecast": 46709,
+                "lower": 33417,
+                "upper": 59301
+              },
+              "2023-04": {
+                "forecast": 65964,
+                "lower": 53216,
+                "upper": 78966
+              },
+              "2023-05": {
+                "forecast": 44755,
+                "lower": 31646,
+                "upper": 59192
+              },
+              "2023-06": {
+                "forecast": 45062,
+                "lower": 31413,
+                "upper": 57319
+              },
+              "2023-07": {
+                "forecast": 76011,
+                "lower": 62689,
+                "upper": 89439
+              },
+              "2023-08": {
+                "forecast": 53261,
+                "lower": 40545,
+                "upper": 65378
+              },
+              "2023-09": {
+                "forecast": 39004,
+                "lower": 25525,
+                "upper": 52248
+              },
+              "2023-10": {
+                "forecast": 64710,
+                "lower": 51452,
+                "upper": 78638
+              },
+              "2023-11": {
+                "forecast": 67343,
+                "lower": 53984,
+                "upper": 81174
+              },
+              "2023-12": {
+                "forecast": 56554,
+                "lower": 43780,
+                "upper": 70543
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 61300,
+                "lower": 47996,
+                "upper": 74004
+              },
+              "2023-02": {
+                "forecast": 59951,
+                "lower": 46608,
+                "upper": 72626
+              },
+              "2023-03": {
+                "forecast": 49952,
+                "lower": 36090,
+                "upper": 63187
+              },
+              "2023-04": {
+                "forecast": 51264,
+                "lower": 37232,
+                "upper": 64345
+              },
+              "2023-05": {
+                "forecast": 69349,
+                "lower": 57286,
+                "upper": 82583
+              },
+              "2023-06": {
+                "forecast": 37637,
+                "lower": 23572,
+                "upper": 50292
+              },
+              "2023-07": {
+                "forecast": 56808,
+                "lower": 43118,
+                "upper": 69940
+              },
+              "2023-08": {
+                "forecast": 85305,
+                "lower": 71639,
+                "upper": 97635
+              },
+              "2023-09": {
+                "forecast": 42721,
+                "lower": 30180,
+                "upper": 55285
+              },
+              "2023-10": {
+                "forecast": 36474,
+                "lower": 23480,
+                "upper": 48173
+              },
+              "2023-11": {
+                "forecast": 76548,
+                "lower": 63559,
+                "upper": 89982
+              },
+              "2023-12": {
+                "forecast": 66471,
+                "lower": 53137,
+                "upper": 78842
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 7816,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -5103,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -3243,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": 14700,
+                "status": "SURPLUS"
+              },
+              "2023-05": {
+                "forecast": -24595,
+                "status": "DEFICIT"
+              },
+              "2023-06": {
+                "forecast": 7424,
+                "status": "SURPLUS"
+              },
+              "2023-07": {
+                "forecast": 19203,
+                "status": "SURPLUS"
+              },
+              "2023-08": {
+                "forecast": -32044,
+                "status": "DEFICIT"
+              },
+              "2023-09": {
+                "forecast": -3718,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 28236,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": -9205,
+                "status": "DEFICIT"
+              },
+              "2023-12": {
+                "forecast": -9917,
+                "status": "DEFICIT"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 55774,
+              "inflow": 69116,
+              "outflow": 61300,
+              "net_flow": 7816,
+              "ending_position": 63590,
+              "capacity_utilization": 13.2
+            },
+            "2023-02": {
+              "starting_position": 63590,
+              "inflow": 54847,
+              "outflow": 59951,
+              "net_flow": -5103,
+              "ending_position": 58487,
+              "capacity_utilization": 12.2
+            },
+            "2023-03": {
+              "starting_position": 58487,
+              "inflow": 46709,
+              "outflow": 49952,
+              "net_flow": -3243,
+              "ending_position": 55244,
+              "capacity_utilization": 11.5
+            },
+            "2023-04": {
+              "starting_position": 55244,
+              "inflow": 65964,
+              "outflow": 51264,
+              "net_flow": 14700,
+              "ending_position": 69944,
+              "capacity_utilization": 14.6
+            },
+            "2023-05": {
+              "starting_position": 69944,
+              "inflow": 44755,
+              "outflow": 69349,
+              "net_flow": -24595,
+              "ending_position": 45350,
+              "capacity_utilization": 9.4
+            },
+            "2023-06": {
+              "starting_position": 45350,
+              "inflow": 45062,
+              "outflow": 37637,
+              "net_flow": 7424,
+              "ending_position": 52774,
+              "capacity_utilization": 11.0
+            },
+            "2023-07": {
+              "starting_position": 52774,
+              "inflow": 76011,
+              "outflow": 56808,
+              "net_flow": 19203,
+              "ending_position": 71977,
+              "capacity_utilization": 15.0
+            },
+            "2023-08": {
+              "starting_position": 71977,
+              "inflow": 53261,
+              "outflow": 85305,
+              "net_flow": -32044,
+              "ending_position": 39933,
+              "capacity_utilization": 8.3
+            },
+            "2023-09": {
+              "starting_position": 39933,
+              "inflow": 39004,
+              "outflow": 42721,
+              "net_flow": -3718,
+              "ending_position": 36216,
+              "capacity_utilization": 7.5
+            },
+            "2023-10": {
+              "starting_position": 36216,
+              "inflow": 64710,
+              "outflow": 36474,
+              "net_flow": 28236,
+              "ending_position": 64452,
+              "capacity_utilization": 13.4
+            },
+            "2023-11": {
+              "starting_position": 64452,
+              "inflow": 67343,
+              "outflow": 76548,
+              "net_flow": -9205,
+              "ending_position": 55247,
+              "capacity_utilization": 11.5
+            },
+            "2023-12": {
+              "starting_position": 55247,
+              "inflow": 56554,
+              "outflow": 66471,
+              "net_flow": -9917,
+              "ending_position": 45330,
+              "capacity_utilization": 9.4
+            }
+          },
+          "alerts": []
+        }
+      },
+      "warehouse_total": {},
+      "capacity_info": {
+        "capacity": 480000,
+        "alert_threshold": 0.9,
+        "location": "New York, NY",
+        "notes": "Based on 2.5x historical peak of 192,373 units, space-constrained urban location"
+      },
+      "monthly_positions": [
+        {
+          "date": "2023-01",
+          "products": {
+            "Footwear": {
+              "before": 130548,
+              "after": 112631
+            },
+            "Apparel": {
+              "before": 55774,
+              "after": 63590
+            }
+          },
+          "warehouse_total_before": 186321.76955,
+          "warehouse_total_after": 176220.40913277867,
+          "capacity_utilization": 36.7
+        },
+        {
+          "date": "2023-02",
+          "products": {
+            "Footwear": {
+              "before": 112631,
+              "after": 110662
+            },
+            "Apparel": {
+              "before": 63590,
+              "after": 58487
+            }
+          },
+          "warehouse_total_before": 176220.40913277867,
+          "warehouse_total_after": 169148.20427033788,
+          "capacity_utilization": 35.2
+        },
+        {
+          "date": "2023-03",
+          "products": {
+            "Footwear": {
+              "before": 110662,
+              "after": 108112
+            },
+            "Apparel": {
+              "before": 58487,
+              "after": 55244
+            }
+          },
+          "warehouse_total_before": 169148.20427033788,
+          "warehouse_total_after": 163355.77617511695,
+          "capacity_utilization": 34.0
+        },
+        {
+          "date": "2023-04",
+          "products": {
+            "Footwear": {
+              "before": 108112,
+              "after": 108401
+            },
+            "Apparel": {
+              "before": 55244,
+              "after": 69944
+            }
+          },
+          "warehouse_total_before": 163355.77617511695,
+          "warehouse_total_after": 178345.63249241316,
+          "capacity_utilization": 37.2
+        },
+        {
+          "date": "2023-05",
+          "products": {
+            "Footwear": {
+              "before": 108401,
+              "after": 79046
+            },
+            "Apparel": {
+              "before": 69944,
+              "after": 45350
+            }
+          },
+          "warehouse_total_before": 178345.63249241316,
+          "warehouse_total_after": 124396.11657642688,
+          "capacity_utilization": 25.9
+        },
+        {
+          "date": "2023-06",
+          "products": {
+            "Footwear": {
+              "before": 79046,
+              "after": 87307
+            },
+            "Apparel": {
+              "before": 45350,
+              "after": 52774
+            }
+          },
+          "warehouse_total_before": 124396.11657642688,
+          "warehouse_total_after": 140080.5504171859,
+          "capacity_utilization": 29.2
+        },
+        {
+          "date": "2023-07",
+          "products": {
+            "Footwear": {
+              "before": 87307,
+              "after": 64433
+            },
+            "Apparel": {
+              "before": 52774,
+              "after": 71977
+            }
+          },
+          "warehouse_total_before": 140080.5504171859,
+          "warehouse_total_after": 136410.09148149725,
+          "capacity_utilization": 28.4
+        },
+        {
+          "date": "2023-08",
+          "products": {
+            "Footwear": {
+              "before": 64433,
+              "after": 96075
+            },
+            "Apparel": {
+              "before": 71977,
+              "after": 39933
+            }
+          },
+          "warehouse_total_before": 136410.09148149725,
+          "warehouse_total_after": 136008.96297229154,
+          "capacity_utilization": 28.3
+        },
+        {
+          "date": "2023-09",
+          "products": {
+            "Footwear": {
+              "before": 96075,
+              "after": 90369
+            },
+            "Apparel": {
+              "before": 39933,
+              "after": 36216
+            }
+          },
+          "warehouse_total_before": 136008.96297229154,
+          "warehouse_total_after": 126584.42557337513,
+          "capacity_utilization": 26.4
+        },
+        {
+          "date": "2023-10",
+          "products": {
+            "Footwear": {
+              "before": 90369,
+              "after": 68556
+            },
+            "Apparel": {
+              "before": 36216,
+              "after": 64452
+            }
+          },
+          "warehouse_total_before": 126584.42557337513,
+          "warehouse_total_after": 133007.73204582988,
+          "capacity_utilization": 27.7
+        },
+        {
+          "date": "2023-11",
+          "products": {
+            "Footwear": {
+              "before": 68556,
+              "after": 83830
+            },
+            "Apparel": {
+              "before": 64452,
+              "after": 55247
+            }
+          },
+          "warehouse_total_before": 133007.73204582988,
+          "warehouse_total_after": 139077.01656945326,
+          "capacity_utilization": 29.0
+        },
+        {
+          "date": "2023-12",
+          "products": {
+            "Footwear": {
+              "before": 83830,
+              "after": 121442
+            },
+            "Apparel": {
+              "before": 55247,
+              "after": 45330
+            }
+          },
+          "warehouse_total_before": 139077.01656945326,
+          "warehouse_total_after": 166771.92972923158,
+          "capacity_utilization": 34.7
+        }
+      ]
+    },
+    "LA": {
+      "products": {
+        "Footwear": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 166968,
+                "lower": 149256,
+                "upper": 183596
+              },
+              "2023-02": {
+                "forecast": 135128,
+                "lower": 117871,
+                "upper": 151041
+              },
+              "2023-03": {
+                "forecast": 139548,
+                "lower": 122261,
+                "upper": 155639
+              },
+              "2023-04": {
+                "forecast": 163291,
+                "lower": 146264,
+                "upper": 180177
+              },
+              "2023-05": {
+                "forecast": 110350,
+                "lower": 93569,
+                "upper": 126284
+              },
+              "2023-06": {
+                "forecast": 115476,
+                "lower": 98102,
+                "upper": 133156
+              },
+              "2023-07": {
+                "forecast": 109510,
+                "lower": 93507,
+                "upper": 127502
+              },
+              "2023-08": {
+                "forecast": 157089,
+                "lower": 140160,
+                "upper": 173449
+              },
+              "2023-09": {
+                "forecast": 138190,
+                "lower": 120555,
+                "upper": 154966
+              },
+              "2023-10": {
+                "forecast": 136754,
+                "lower": 118914,
+                "upper": 152578
+              },
+              "2023-11": {
+                "forecast": 142970,
+                "lower": 125889,
+                "upper": 160364
+              },
+              "2023-12": {
+                "forecast": 179719,
+                "lower": 164017,
+                "upper": 197064
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 166511,
+                "lower": 143903,
+                "upper": 188074
+              },
+              "2023-02": {
+                "forecast": 149044,
+                "lower": 126821,
+                "upper": 170878
+              },
+              "2023-03": {
+                "forecast": 141706,
+                "lower": 118890,
+                "upper": 163372
+              },
+              "2023-04": {
+                "forecast": 145290,
+                "lower": 122609,
+                "upper": 168046
+              },
+              "2023-05": {
+                "forecast": 138375,
+                "lower": 116028,
+                "upper": 161276
+              },
+              "2023-06": {
+                "forecast": 132664,
+                "lower": 110172,
+                "upper": 154083
+              },
+              "2023-07": {
+                "forecast": 110242,
+                "lower": 89752,
+                "upper": 131165
+              },
+              "2023-08": {
+                "forecast": 123978,
+                "lower": 104074,
+                "upper": 147566
+              },
+              "2023-09": {
+                "forecast": 157244,
+                "lower": 134623,
+                "upper": 178671
+              },
+              "2023-10": {
+                "forecast": 134326,
+                "lower": 112953,
+                "upper": 157309
+              },
+              "2023-11": {
+                "forecast": 125992,
+                "lower": 104094,
+                "upper": 147199
+              },
+              "2023-12": {
+                "forecast": 175863,
+                "lower": 150839,
+                "upper": 199682
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 457,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -13916,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": -2158,
+                "status": "DEFICIT"
+              },
+              "2023-04": {
+                "forecast": 18001,
+                "status": "SURPLUS"
+              },
+              "2023-05": {
+                "forecast": -28025,
+                "status": "DEFICIT"
+              },
+              "2023-06": {
+                "forecast": -17188,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": -732,
+                "status": "DEFICIT"
+              },
+              "2023-08": {
+                "forecast": 33112,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -19054,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 2428,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": 16977,
+                "status": "SURPLUS"
+              },
+              "2023-12": {
+                "forecast": 3856,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 128707,
+              "inflow": 166968,
+              "outflow": 166511,
+              "net_flow": 457,
+              "ending_position": 129164,
+              "capacity_utilization": 27.2
+            },
+            "2023-02": {
+              "starting_position": 129164,
+              "inflow": 135128,
+              "outflow": 149044,
+              "net_flow": -13916,
+              "ending_position": 115248,
+              "capacity_utilization": 24.3
+            },
+            "2023-03": {
+              "starting_position": 115248,
+              "inflow": 139548,
+              "outflow": 141706,
+              "net_flow": -2158,
+              "ending_position": 113090,
+              "capacity_utilization": 23.8
+            },
+            "2023-04": {
+              "starting_position": 113090,
+              "inflow": 163291,
+              "outflow": 145290,
+              "net_flow": 18001,
+              "ending_position": 131092,
+              "capacity_utilization": 27.6
+            },
+            "2023-05": {
+              "starting_position": 131092,
+              "inflow": 110350,
+              "outflow": 138375,
+              "net_flow": -28025,
+              "ending_position": 103067,
+              "capacity_utilization": 21.7
+            },
+            "2023-06": {
+              "starting_position": 103067,
+              "inflow": 115476,
+              "outflow": 132664,
+              "net_flow": -17188,
+              "ending_position": 85879,
+              "capacity_utilization": 18.1
+            },
+            "2023-07": {
+              "starting_position": 85879,
+              "inflow": 109510,
+              "outflow": 110242,
+              "net_flow": -732,
+              "ending_position": 85147,
+              "capacity_utilization": 17.9
+            },
+            "2023-08": {
+              "starting_position": 85147,
+              "inflow": 157089,
+              "outflow": 123978,
+              "net_flow": 33112,
+              "ending_position": 118258,
+              "capacity_utilization": 24.9
+            },
+            "2023-09": {
+              "starting_position": 118258,
+              "inflow": 138190,
+              "outflow": 157244,
+              "net_flow": -19054,
+              "ending_position": 99205,
+              "capacity_utilization": 20.9
+            },
+            "2023-10": {
+              "starting_position": 99205,
+              "inflow": 136754,
+              "outflow": 134326,
+              "net_flow": 2428,
+              "ending_position": 101633,
+              "capacity_utilization": 21.4
+            },
+            "2023-11": {
+              "starting_position": 101633,
+              "inflow": 142970,
+              "outflow": 125992,
+              "net_flow": 16977,
+              "ending_position": 118610,
+              "capacity_utilization": 25.0
+            },
+            "2023-12": {
+              "starting_position": 118610,
+              "inflow": 179719,
+              "outflow": 175863,
+              "net_flow": 3856,
+              "ending_position": 122466,
+              "capacity_utilization": 25.8
+            }
+          },
+          "alerts": []
+        },
+        "Apparel": {
+          "forecasts": {
+            "inflows": {
+              "2023-01": {
+                "forecast": 70543,
+                "lower": 54543,
+                "upper": 85908
+              },
+              "2023-02": {
+                "forecast": 50261,
+                "lower": 35096,
+                "upper": 64713
+              },
+              "2023-03": {
+                "forecast": 52393,
+                "lower": 37566,
+                "upper": 68209
+              },
+              "2023-04": {
+                "forecast": 48688,
+                "lower": 33406,
+                "upper": 62999
+              },
+              "2023-05": {
+                "forecast": 58530,
+                "lower": 43406,
+                "upper": 73388
+              },
+              "2023-06": {
+                "forecast": 51527,
+                "lower": 36081,
+                "upper": 66641
+              },
+              "2023-07": {
+                "forecast": 40060,
+                "lower": 25017,
+                "upper": 54896
+              },
+              "2023-08": {
+                "forecast": 73751,
+                "lower": 59144,
+                "upper": 89563
+              },
+              "2023-09": {
+                "forecast": 55851,
+                "lower": 40448,
+                "upper": 72404
+              },
+              "2023-10": {
+                "forecast": 68455,
+                "lower": 52831,
+                "upper": 83479
+              },
+              "2023-11": {
+                "forecast": 51660,
+                "lower": 37852,
+                "upper": 66271
+              },
+              "2023-12": {
+                "forecast": 64792,
+                "lower": 48590,
+                "upper": 80254
+              }
+            },
+            "outflows": {
+              "2023-01": {
+                "forecast": 60088,
+                "lower": 44477,
+                "upper": 78075
+              },
+              "2023-02": {
+                "forecast": 61290,
+                "lower": 45331,
+                "upper": 79147
+              },
+              "2023-03": {
+                "forecast": 42308,
+                "lower": 26691,
+                "upper": 58066
+              },
+              "2023-04": {
+                "forecast": 56347,
+                "lower": 39368,
+                "upper": 73729
+              },
+              "2023-05": {
+                "forecast": 54458,
+                "lower": 38971,
+                "upper": 70625
+              },
+              "2023-06": {
+                "forecast": 56627,
+                "lower": 39552,
+                "upper": 72994
+              },
+              "2023-07": {
+                "forecast": 47063,
+                "lower": 31067,
+                "upper": 63734
+              },
+              "2023-08": {
+                "forecast": 57361,
+                "lower": 41612,
+                "upper": 73608
+              },
+              "2023-09": {
+                "forecast": 59739,
+                "lower": 43164,
+                "upper": 76690
+              },
+              "2023-10": {
+                "forecast": 64252,
+                "lower": 47474,
+                "upper": 80441
+              },
+              "2023-11": {
+                "forecast": 56529,
+                "lower": 40366,
+                "upper": 73412
+              },
+              "2023-12": {
+                "forecast": 61789,
+                "lower": 45079,
+                "upper": 77611
+              }
+            },
+            "net_flow": {
+              "2023-01": {
+                "forecast": 10455,
+                "status": "SURPLUS"
+              },
+              "2023-02": {
+                "forecast": -11029,
+                "status": "DEFICIT"
+              },
+              "2023-03": {
+                "forecast": 10085,
+                "status": "SURPLUS"
+              },
+              "2023-04": {
+                "forecast": -7659,
+                "status": "DEFICIT"
+              },
+              "2023-05": {
+                "forecast": 4073,
+                "status": "SURPLUS"
+              },
+              "2023-06": {
+                "forecast": -5100,
+                "status": "DEFICIT"
+              },
+              "2023-07": {
+                "forecast": -7003,
+                "status": "DEFICIT"
+              },
+              "2023-08": {
+                "forecast": 16391,
+                "status": "SURPLUS"
+              },
+              "2023-09": {
+                "forecast": -3888,
+                "status": "DEFICIT"
+              },
+              "2023-10": {
+                "forecast": 4203,
+                "status": "SURPLUS"
+              },
+              "2023-11": {
+                "forecast": -4868,
+                "status": "DEFICIT"
+              },
+              "2023-12": {
+                "forecast": 3002,
+                "status": "SURPLUS"
+              }
+            }
+          },
+          "rolling_inventory": {
+            "2023-01": {
+              "starting_position": 54987,
+              "inflow": 70543,
+              "outflow": 60088,
+              "net_flow": 10455,
+              "ending_position": 65442,
+              "capacity_utilization": 13.8
+            },
+            "2023-02": {
+              "starting_position": 65442,
+              "inflow": 50261,
+              "outflow": 61290,
+              "net_flow": -11029,
+              "ending_position": 54413,
+              "capacity_utilization": 11.5
+            },
+            "2023-03": {
+              "starting_position": 54413,
+              "inflow": 52393,
+              "outflow": 42308,
+              "net_flow": 10085,
+              "ending_position": 64498,
+              "capacity_utilization": 13.6
+            },
+            "2023-04": {
+              "starting_position": 64498,
+              "inflow": 48688,
+              "outflow": 56347,
+              "net_flow": -7659,
+              "ending_position": 56839,
+              "capacity_utilization": 12.0
+            },
+            "2023-05": {
+              "starting_position": 56839,
+              "inflow": 58530,
+              "outflow": 54458,
+              "net_flow": 4073,
+              "ending_position": 60912,
+              "capacity_utilization": 12.8
+            },
+            "2023-06": {
+              "starting_position": 60912,
+              "inflow": 51527,
+              "outflow": 56627,
+              "net_flow": -5100,
+              "ending_position": 55812,
+              "capacity_utilization": 11.7
+            },
+            "2023-07": {
+              "starting_position": 55812,
+              "inflow": 40060,
+              "outflow": 47063,
+              "net_flow": -7003,
+              "ending_position": 48809,
+              "capacity_utilization": 10.3
+            },
+            "2023-08": {
+              "starting_position": 48809,
+              "inflow": 73751,
+              "outflow": 57361,
+              "net_flow": 16391,
+              "ending_position": 65200,
+              "capacity_utilization": 13.7
+            },
+            "2023-09": {
+              "starting_position": 65200,
+              "inflow": 55851,
+              "outflow": 59739,
+              "net_flow": -3888,
+              "ending_position": 61311,
+              "capacity_utilization": 12.9
+            },
+            "2023-10": {
+              "starting_position": 61311,
+              "inflow": 68455,
+              "outflow": 64252,
+              "net_flow": 4203,
+              "ending_position": 65514,
+              "capacity_utilization": 13.8
+            },
+            "2023-11": {
+              "starting_position": 65514,
+              "inflow": 51660,
+              "outflow": 56529,
+              "net_flow": -4868,
+              "ending_position": 60646,
+              "capacity_utilization": 12.8
+            },
+            "2023-12": {
+              "starting_position": 60646,
+              "inflow": 64792,
+              "outflow": 61789,
+              "net_flow": 3002,
+              "ending_position": 63649,
+              "capacity_utilization": 13.4
+            }
+          },
+          "alerts": []
+        }
+      },
+      "warehouse_total": {},
+      "capacity_info": {
+        "capacity": 475000,
+        "alert_threshold": 0.9,
+        "location": "Los Angeles, CA",
+        "notes": "Based on 2.5x historical peak of 189,660 units"
+      },
+      "monthly_positions": [
+        {
+          "date": "2023-01",
+          "products": {
+            "Footwear": {
+              "before": 128707,
+              "after": 129164
+            },
+            "Apparel": {
+              "before": 54987,
+              "after": 65442
+            }
+          },
+          "warehouse_total_before": 183694.724,
+          "warehouse_total_after": 194606.34961648073,
+          "capacity_utilization": 41.0
+        },
+        {
+          "date": "2023-02",
+          "products": {
+            "Footwear": {
+              "before": 129164,
+              "after": 115248
+            },
+            "Apparel": {
+              "before": 65442,
+              "after": 54413
+            }
+          },
+          "warehouse_total_before": 194606.34961648073,
+          "warehouse_total_after": 169661.32493595095,
+          "capacity_utilization": 35.7
+        },
+        {
+          "date": "2023-03",
+          "products": {
+            "Footwear": {
+              "before": 115248,
+              "after": 113090
+            },
+            "Apparel": {
+              "before": 54413,
+              "after": 64498
+            }
+          },
+          "warehouse_total_before": 169661.32493595095,
+          "warehouse_total_after": 177588.2271415952,
+          "capacity_utilization": 37.4
+        },
+        {
+          "date": "2023-04",
+          "products": {
+            "Footwear": {
+              "before": 113090,
+              "after": 131092
+            },
+            "Apparel": {
+              "before": 64498,
+              "after": 56839
+            }
+          },
+          "warehouse_total_before": 177588.2271415952,
+          "warehouse_total_after": 187930.86599686992,
+          "capacity_utilization": 39.6
+        },
+        {
+          "date": "2023-05",
+          "products": {
+            "Footwear": {
+              "before": 131092,
+              "after": 103067
+            },
+            "Apparel": {
+              "before": 56839,
+              "after": 60912
+            }
+          },
+          "warehouse_total_before": 187930.86599686992,
+          "warehouse_total_after": 163978.53965146584,
+          "capacity_utilization": 34.5
+        },
+        {
+          "date": "2023-06",
+          "products": {
+            "Footwear": {
+              "before": 103067,
+              "after": 85879
+            },
+            "Apparel": {
+              "before": 60912,
+              "after": 55812
+            }
+          },
+          "warehouse_total_before": 163978.53965146584,
+          "warehouse_total_after": 141690.9379485157,
+          "capacity_utilization": 29.8
+        },
+        {
+          "date": "2023-07",
+          "products": {
+            "Footwear": {
+              "before": 85879,
+              "after": 85147
+            },
+            "Apparel": {
+              "before": 55812,
+              "after": 48809
+            }
+          },
+          "warehouse_total_before": 141690.9379485157,
+          "warehouse_total_after": 133955.76044409384,
+          "capacity_utilization": 28.2
+        },
+        {
+          "date": "2023-08",
+          "products": {
+            "Footwear": {
+              "before": 85147,
+              "after": 118258
+            },
+            "Apparel": {
+              "before": 48809,
+              "after": 65200
+            }
+          },
+          "warehouse_total_before": 133955.76044409384,
+          "warehouse_total_after": 183458.0234378076,
+          "capacity_utilization": 38.6
+        },
+        {
+          "date": "2023-09",
+          "products": {
+            "Footwear": {
+              "before": 118258,
+              "after": 99205
+            },
+            "Apparel": {
+              "before": 65200,
+              "after": 61311
+            }
+          },
+          "warehouse_total_before": 183458.0234378076,
+          "warehouse_total_after": 160516.070195645,
+          "capacity_utilization": 33.8
+        },
+        {
+          "date": "2023-10",
+          "products": {
+            "Footwear": {
+              "before": 99205,
+              "after": 101633
+            },
+            "Apparel": {
+              "before": 61311,
+              "after": 65514
+            }
+          },
+          "warehouse_total_before": 160516.070195645,
+          "warehouse_total_after": 167147.35712972662,
+          "capacity_utilization": 35.2
+        },
+        {
+          "date": "2023-11",
+          "products": {
+            "Footwear": {
+              "before": 101633,
+              "after": 118610
+            },
+            "Apparel": {
+              "before": 65514,
+              "after": 60646
+            }
+          },
+          "warehouse_total_before": 167147.35712972662,
+          "warehouse_total_after": 179256.2950768892,
+          "capacity_utilization": 37.7
+        },
+        {
+          "date": "2023-12",
+          "products": {
+            "Footwear": {
+              "before": 118610,
+              "after": 122466
+            },
+            "Apparel": {
+              "before": 60646,
+              "after": 63649
+            }
+          },
+          "warehouse_total_before": 179256.2950768892,
+          "warehouse_total_after": 186114.36611144725,
+          "capacity_utilization": 39.2
+        }
+      ]
+    }
+  },
+  "network_summary": {
+    "total_warehouses": 5,
+    "total_products": 2,
+    "network_projected_inflow": 11984055,
+    "network_projected_outflow": 12081190,
+    "network_net_position": -97135,
+    "final_network_inventory": 843449,
+    "warehouses_at_risk": 0,
+    "total_alerts": 0
+  },
+  "alerts": []
+}

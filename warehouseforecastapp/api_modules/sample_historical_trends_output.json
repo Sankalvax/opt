@@ -1,0 +1,11 @@
+{
+  "error": "Error processing trends: 'NoneType' object has no attribute 'copy'",
+  "metadata": {
+    "generated_at": "2025-09-30T09:44:15.717702",
+    "filters_applied": {
+      "aggregation": "monthly",
+      "chart_type": "all"
+    },
+    "data_source": "Historical transaction data 2017-2022"
+  }
+}

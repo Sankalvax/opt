@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-25T13:56:15.204488",
+    "filters_applied": {
+      "product_level": "product_type",
+      "horizon_months": 6,
+      "forecast_type": "all",
+      "warehouses": [
+        "All"
+      ]
+    },
+    "product_level": "product_type",
+    "horizon_months": 6,
+    "data_source": "Product-specific historical data 2017-2022"
+  },
+  "forecasts": {
+    "Footwear": {
+      "inflows": {
+        "2023-01": {
+          "forecast": 886665.0,
+          "lower": 838697.0,
+          "upper": 935889.0
+        },
+        "2023-02": {
+          "forecast": 646760.0,
+          "lower": 592063.0,
+          "upper": 697028.0
+        },
+        "2023-03": {
+          "forecast": 679192.0,
+          "lower": 630373.0,
+          "upper": 726648.0
+        },
+        "2023-04": {
+          "forecast": 707796.0,
+          "lower": 659147.0,
+          "upper": 755724.0
+        },
+        "2023-05": {
+          "forecast": 681683.0,
+          "lower": 633569.0,
+          "upper": 729536.0
+        },
+        "2023-06": {
+          "forecast": 571600.0,
+          "lower": 521508.0,
+          "upper": 620966.0
+        }
+      },
+      "outflows": {
+        "2023-01": {
+          "forecast": 843829.0,
+          "lower": 776070.0,
+          "upper": 905323.0
+        },
+        "2023-02": {
+          "forecast": 770578.0,
+          "lower": 706297.0,
+          "upper": 830711.0
+        },
+        "2023-03": {
+          "forecast": 698740.0,
+          "lower": 633357.0,
+          "upper": 765609.0
+        },
+        "2023-04": {
+          "forecast": 677481.0,
+          "lower": 613641.0,
+          "upper": 736410.0
+        },
+        "2023-05": {
+          "forecast": 718136.0,
+          "lower": 651041.0,
+          "upper": 785193.0
+        },
+        "2023-06": {
+          "forecast": 649548.0,
+          "lower": 588474.0,
+          "upper": 715618.0
+        }
+      },
+      "net_flow": {
+        "2023-01": {
+          "forecast": 42836.0,
+          "status": "SURPLUS"
+        },
+        "2023-02": {
+          "forecast": -123818.0,
+          "status": "DEFICIT"
+        },
+        "2023-03": {
+          "forecast": -19548.0,
+          "status": "DEFICIT"
+        },
+        "2023-04": {
+          "forecast": 30315.0,
+          "status": "SURPLUS"
+        },
+        "2023-05": {
+          "forecast": -36453.0,
+          "status": "DEFICIT"
+        },
+        "2023-06": {
+          "forecast": -77948.0,
+          "status": "DEFICIT"
+        }
+      },
+      "metrics": {
+        "total_projected_inflow": 4173696.0,
+        "total_projected_outflow": 4358312.0,
+        "net_position": -184616.0,
+        "avg_monthly_inflow": 695616.0,
+        "avg_monthly_outflow": 726385.0
+      }
+    },
+    "Apparel": {
+      "inflows": {
+        "2023-01": {
+          "forecast": 382252.0,
+          "lower": 344334.0,
+          "upper": 417790.0
+        },
+        "2023-02": {
+          "forecast": 259824.0,
+          "lower": 224895.0,
+          "upper": 294729.0
+        },
+        "2023-03": {
+          "forecast": 273411.0,
+          "lower": 238279.0,
+          "upper": 306829.0
+        },
+        "2023-04": {
+          "forecast": 297077.0,
+          "lower": 260663.0,
+          "upper": 331229.0
+        },
+        "2023-05": {
+          "forecast": 269136.0,
+          "lower": 231642.0,
+          "upper": 303503.0
+        },
+        "2023-06": {
+          "forecast": 246749.0,
+          "lower": 214821.0,
+          "upper": 286390.0
+        }
+      },
+      "outflows": {
+        "2023-01": {
+          "forecast": 347832.0,
+          "lower": 307074.0,
+          "upper": 387001.0
+        },
+        "2023-02": {
+          "forecast": 295527.0,
+          "lower": 254421.0,
+          "upper": 334474.0
+        },
+        "2023-03": {
+          "forecast": 272960.0,
+          "lower": 231040.0,
+          "upper": 313159.0
+        },
+        "2023-04": {
+          "forecast": 296185.0,
+          "lower": 255866.0,
+          "upper": 337027.0
+        },
+        "2023-05": {
+          "forecast": 295726.0,
+          "lower": 256122.0,
+          "upper": 333966.0
+        },
+        "2023-06": {
+          "forecast": 261259.0,
+          "lower": 222622.0,
+          "upper": 302019.0
+        }
+      },
+      "net_flow": {
+        "2023-01": {
+          "forecast": 34420.0,
+          "status": "SURPLUS"
+        },
+        "2023-02": {
+          "forecast": -35703.0,
+          "status": "DEFICIT"
+        },
+        "2023-03": {
+          "forecast": 451.0,
+          "status": "SURPLUS"
+        },
+        "2023-04": {
+          "forecast": 892.0,
+          "status": "SURPLUS"
+        },
+        "2023-05": {
+          "forecast": -26590.0,
+          "status": "DEFICIT"
+        },
+        "2023-06": {
+          "forecast": -14510.0,
+          "status": "DEFICIT"
+        }
+      },
+      "metrics": {
+        "total_projected_inflow": 1728449.0,
+        "total_projected_outflow": 1769489.0,
+        "net_position": -41040.0,
+        "avg_monthly_inflow": 288075.0,
+        "avg_monthly_outflow": 294915.0
+      }
+    }
+  },
+  "model_performance": {
+    "Footwear": {
+      "inflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      },
+      "outflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      }
+    },
+    "Apparel": {
+      "inflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      },
+      "outflows": {
+        "accuracy": "Error in calculation",
+        "confidence": "Low",
+        "mape": null
+      }
+    }
+  },
+  "summary": {
+    "total_products_forecasted": 2,
+    "forecast_horizon_months": 6,
+    "network_projected_inflow": 5902145.0,
+    "network_projected_outflow": 6127801.0,
+    "network_net_position": -225656.0,
+    "products_with_surplus": 0,
+    "products_with_deficit": 2
+  }
+}

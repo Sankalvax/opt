@@ -1,0 +1,17 @@
+{
+  "error": "Error processing product forecasts: 'NoneType' object is not subscriptable",
+  "metadata": {
+    "generated_at": "2025-09-27T03:48:51.175903",
+    "filters_applied": {
+      "product_level": "product_type",
+      "horizon_months": 6,
+      "forecast_type": "all",
+      "warehouses": [
+        "All"
+      ]
+    },
+    "product_level": "product_type",
+    "horizon_months": 6,
+    "data_source": "Product-specific historical data 2017-2022"
+  }
+}

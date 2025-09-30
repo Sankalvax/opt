@@ -1,0 +1,1295 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-25T16:05:19.422085",
+    "forecast_horizon_months": 3,
+    "allocation_type": "warehouse_to_partner_detailed",
+    "total_recommendations": 20
+  },
+  "current_inventory_summary": {
+    "total_warehouses": 5,
+    "warehouse_inventory": {
+      "Atlanta": 158130,
+      "Nashville": 173148,
+      "Chicago": 159284,
+      "NY": 166772,
+      "LA": 186115
+    }
+  },
+  "partner_requirements_summary": {
+    "partners_analyzed": 5,
+    "total_monthly_demand": 915070,
+    "top_demand_partners": [
+      "Company C",
+      "Company F",
+      "Company E"
+    ]
+  },
+  "allocation_recommendations": [
+    {
+      "allocation_id": "NY_Company C_Sneakers_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company C",
+      "partner_region": "West Africa",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Sneakers",
+        "total_quantity": 38042,
+        "size_breakdown": [
+          {
+            "size": "7",
+            "quantity": 5706,
+            "percentage": 15
+          },
+          {
+            "size": "8",
+            "quantity": 7608,
+            "percentage": 20
+          },
+          {
+            "size": "9",
+            "quantity": 6847,
+            "percentage": 18
+          },
+          {
+            "size": "10",
+            "quantity": 5706,
+            "percentage": 15
+          },
+          {
+            "size": "11",
+            "quantity": 4565,
+            "percentage": 12
+          },
+          {
+            "size": "6",
+            "quantity": 3804,
+            "percentage": 10
+          },
+          {
+            "size": "12",
+            "quantity": 1902,
+            "percentage": 5
+          },
+          {
+            "size": "5",
+            "quantity": 1902,
+            "percentage": 5
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-04",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 21
+      },
+      "logistics": {
+        "distance_factor": 2.2,
+        "shipping_cost_estimate": 177846.35,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company C_Boots_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company C",
+      "partner_region": "West Africa",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Boots",
+        "total_quantity": 21134,
+        "size_breakdown": [
+          {
+            "size": "7",
+            "quantity": 3170,
+            "percentage": 15
+          },
+          {
+            "size": "8",
+            "quantity": 4226,
+            "percentage": 20
+          },
+          {
+            "size": "9",
+            "quantity": 3804,
+            "percentage": 18
+          },
+          {
+            "size": "10",
+            "quantity": 3170,
+            "percentage": 15
+          },
+          {
+            "size": "11",
+            "quantity": 2536,
+            "percentage": 12
+          },
+          {
+            "size": "6",
+            "quantity": 2113,
+            "percentage": 10
+          },
+          {
+            "size": "12",
+            "quantity": 1056,
+            "percentage": 5
+          },
+          {
+            "size": "5",
+            "quantity": 1056,
+            "percentage": 5
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-04",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 21
+      },
+      "logistics": {
+        "distance_factor": 2.2,
+        "shipping_cost_estimate": 98801.45,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company C_Shirts_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company C",
+      "partner_region": "West Africa",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Shirts",
+        "total_quantity": 16907,
+        "size_breakdown": [
+          {
+            "size": "M",
+            "quantity": 4226,
+            "percentage": 25
+          },
+          {
+            "size": "L",
+            "quantity": 3381,
+            "percentage": 20
+          },
+          {
+            "size": "XL",
+            "quantity": 2536,
+            "percentage": 15
+          },
+          {
+            "size": "S",
+            "quantity": 2536,
+            "percentage": 15
+          },
+          {
+            "size": "XXL",
+            "quantity": 2536,
+            "percentage": 15
+          },
+          {
+            "size": "XS",
+            "quantity": 1690,
+            "percentage": 10
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-04",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 21
+      },
+      "logistics": {
+        "distance_factor": 2.2,
+        "shipping_cost_estimate": 79040.23,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company C_Coats_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company C",
+      "partner_region": "West Africa",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Coats",
+        "total_quantity": 8453,
+        "size_breakdown": [
+          {
+            "size": "M",
+            "quantity": 2113,
+            "percentage": 25
+          },
+          {
+            "size": "L",
+            "quantity": 1690,
+            "percentage": 20
+          },
+          {
+            "size": "XL",
+            "quantity": 1267,
+            "percentage": 15
+          },
+          {
+            "size": "S",
+            "quantity": 1267,
+            "percentage": 15
+          },
+          {
+            "size": "XXL",
+            "quantity": 1267,
+            "percentage": 15
+          },
+          {
+            "size": "XS",
+            "quantity": 845,
+            "percentage": 10
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-04",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 21
+      },
+      "logistics": {
+        "distance_factor": 2.2,
+        "shipping_cost_estimate": 41842.35,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company E_Sneakers_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company E",
+      "partner_region": "Southeast Asia",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Sneakers",
+        "total_quantity": 28050,
+        "size_breakdown": [
+          {
+            "size": "6",
+            "quantity": 5610,
+            "percentage": 20
+          },
+          {
+            "size": "7",
+            "quantity": 5049,
+            "percentage": 18
+          },
+          {
+            "size": "8",
+            "quantity": 4207,
+            "percentage": 15
+          },
+          {
+            "size": "9",
+            "quantity": 4207,
+            "percentage": 15
+          },
+          {
+            "size": "10",
+            "quantity": 3366,
+            "percentage": 12
+          },
+          {
+            "size": "5",
+            "quantity": 2805,
+            "percentage": 10
+          },
+          {
+            "size": "11",
+            "quantity": 1683,
+            "percentage": 6
+          },
+          {
+            "size": "12",
+            "quantity": 1122,
+            "percentage": 4
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-07",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 18
+      },
+      "logistics": {
+        "distance_factor": 2.5,
+        "shipping_cost_estimate": 149015.62,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company E_Boots_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company E",
+      "partner_region": "Southeast Asia",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Boots",
+        "total_quantity": 21037,
+        "size_breakdown": [
+          {
+            "size": "6",
+            "quantity": 4207,
+            "percentage": 20
+          },
+          {
+            "size": "7",
+            "quantity": 3786,
+            "percentage": 18
+          },
+          {
+            "size": "8",
+            "quantity": 3155,
+            "percentage": 15
+          },
+          {
+            "size": "9",
+            "quantity": 3155,
+            "percentage": 15
+          },
+          {
+            "size": "10",
+            "quantity": 2524,
+            "percentage": 12
+          },
+          {
+            "size": "5",
+            "quantity": 2103,
+            "percentage": 10
+          },
+          {
+            "size": "11",
+            "quantity": 1262,
+            "percentage": 6
+          },
+          {
+            "size": "12",
+            "quantity": 841,
+            "percentage": 4
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-07",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 18
+      },
+      "logistics": {
+        "distance_factor": 2.5,
+        "shipping_cost_estimate": 111759.06,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company E_Shirts_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company E",
+      "partner_region": "Southeast Asia",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Shirts",
+        "total_quantity": 14025,
+        "size_breakdown": [
+          {
+            "size": "S",
+            "quantity": 4207,
+            "percentage": 30
+          },
+          {
+            "size": "M",
+            "quantity": 3506,
+            "percentage": 25
+          },
+          {
+            "size": "L",
+            "quantity": 2103,
+            "percentage": 15
+          },
+          {
+            "size": "XS",
+            "quantity": 2103,
+            "percentage": 15
+          },
+          {
+            "size": "XL",
+            "quantity": 1402,
+            "percentage": 10
+          },
+          {
+            "size": "XXL",
+            "quantity": 701,
+            "percentage": 5
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-07",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 18
+      },
+      "logistics": {
+        "distance_factor": 2.5,
+        "shipping_cost_estimate": 74507.81,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company E_Coats_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company E",
+      "partner_region": "Southeast Asia",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Coats",
+        "total_quantity": 7012,
+        "size_breakdown": [
+          {
+            "size": "S",
+            "quantity": 2103,
+            "percentage": 30
+          },
+          {
+            "size": "M",
+            "quantity": 1753,
+            "percentage": 25
+          },
+          {
+            "size": "L",
+            "quantity": 1051,
+            "percentage": 15
+          },
+          {
+            "size": "XS",
+            "quantity": 1051,
+            "percentage": 15
+          },
+          {
+            "size": "XL",
+            "quantity": 701,
+            "percentage": 10
+          },
+          {
+            "size": "XXL",
+            "quantity": 350,
+            "percentage": 5
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-07",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 18
+      },
+      "logistics": {
+        "distance_factor": 2.5,
+        "shipping_cost_estimate": 39442.5,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "HIGH",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company I_Sneakers_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company I",
+      "partner_region": "Latin America",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Sneakers",
+        "total_quantity": 4764,
+        "size_breakdown": [
+          {
+            "size": "7",
+            "quantity": 857,
+            "percentage": 18
+          },
+          {
+            "size": "8",
+            "quantity": 857,
+            "percentage": 18
+          },
+          {
+            "size": "6",
+            "quantity": 762,
+            "percentage": 16
+          },
+          {
+            "size": "9",
+            "quantity": 666,
+            "percentage": 14
+          },
+          {
+            "size": "5",
+            "quantity": 571,
+            "percentage": 12
+          },
+          {
+            "size": "10",
+            "quantity": 571,
+            "percentage": 12
+          },
+          {
+            "size": "11",
+            "quantity": 285,
+            "percentage": 6
+          },
+          {
+            "size": "12",
+            "quantity": 190,
+            "percentage": 4
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-13",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 12
+      },
+      "logistics": {
+        "distance_factor": 1.5,
+        "shipping_cost_estimate": 17865.0,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "LOW",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company I_Boots_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company I",
+      "partner_region": "Latin America",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Boots",
+        "total_quantity": 3573,
+        "size_breakdown": [
+          {
+            "size": "7",
+            "quantity": 643,
+            "percentage": 18
+          },
+          {
+            "size": "8",
+            "quantity": 643,
+            "percentage": 18
+          },
+          {
+            "size": "6",
+            "quantity": 571,
+            "percentage": 16
+          },
+          {
+            "size": "9",
+            "quantity": 500,
+            "percentage": 14
+          },
+          {
+            "size": "5",
+            "quantity": 428,
+            "percentage": 12
+          },
+          {
+            "size": "10",
+            "quantity": 428,
+            "percentage": 12
+          },
+          {
+            "size": "11",
+            "quantity": 214,
+            "percentage": 6
+          },
+          {
+            "size": "12",
+            "quantity": 142,
+            "percentage": 4
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-13",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 12
+      },
+      "logistics": {
+        "distance_factor": 1.5,
+        "shipping_cost_estimate": 13398.75,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "LOW",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company I_Shirts_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company I",
+      "partner_region": "Latin America",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Shirts",
+        "total_quantity": 2143,
+        "size_breakdown": [
+          {
+            "size": "S",
+            "quantity": 535,
+            "percentage": 25
+          },
+          {
+            "size": "M",
+            "quantity": 535,
+            "percentage": 25
+          },
+          {
+            "size": "L",
+            "quantity": 385,
+            "percentage": 18
+          },
+          {
+            "size": "XS",
+            "quantity": 300,
+            "percentage": 14
+          },
+          {
+            "size": "XL",
+            "quantity": 257,
+            "percentage": 12
+          },
+          {
+            "size": "XXL",
+            "quantity": 128,
+            "percentage": 6
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-13",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 12
+      },
+      "logistics": {
+        "distance_factor": 1.5,
+        "shipping_cost_estimate": 8036.25,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "LOW",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "LA_Company I_Coats_2025-10",
+      "from_warehouse": "LA",
+      "to_partner": "Company I",
+      "partner_region": "Latin America",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Coats",
+        "total_quantity": 1429,
+        "size_breakdown": [
+          {
+            "size": "S",
+            "quantity": 357,
+            "percentage": 25
+          },
+          {
+            "size": "M",
+            "quantity": 357,
+            "percentage": 25
+          },
+          {
+            "size": "L",
+            "quantity": 257,
+            "percentage": 18
+          },
+          {
+            "size": "XS",
+            "quantity": 200,
+            "percentage": 14
+          },
+          {
+            "size": "XL",
+            "quantity": 171,
+            "percentage": 12
+          },
+          {
+            "size": "XXL",
+            "quantity": 85,
+            "percentage": 6
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-13",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 12
+      },
+      "logistics": {
+        "distance_factor": 1.5,
+        "shipping_cost_estimate": 5358.75,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "LOW",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company H_Sneakers_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company H",
+      "partner_region": "Middle East",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Sneakers",
+        "total_quantity": 11746,
+        "size_breakdown": [
+          {
+            "size": "7",
+            "quantity": 1879,
+            "percentage": 16
+          },
+          {
+            "size": "8",
+            "quantity": 1879,
+            "percentage": 16
+          },
+          {
+            "size": "9",
+            "quantity": 1879,
+            "percentage": 16
+          },
+          {
+            "size": "10",
+            "quantity": 1644,
+            "percentage": 14
+          },
+          {
+            "size": "6",
+            "quantity": 1409,
+            "percentage": 12
+          },
+          {
+            "size": "11",
+            "quantity": 1409,
+            "percentage": 12
+          },
+          {
+            "size": "5",
+            "quantity": 939,
+            "percentage": 8
+          },
+          {
+            "size": "12",
+            "quantity": 704,
+            "percentage": 6
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-09",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 16
+      },
+      "logistics": {
+        "distance_factor": 2.8,
+        "shipping_cost_estimate": 69888.7,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company H_Boots_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company H",
+      "partner_region": "Middle East",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Boots",
+        "total_quantity": 11410,
+        "size_breakdown": [
+          {
+            "size": "7",
+            "quantity": 1825,
+            "percentage": 16
+          },
+          {
+            "size": "8",
+            "quantity": 1825,
+            "percentage": 16
+          },
+          {
+            "size": "9",
+            "quantity": 1825,
+            "percentage": 16
+          },
+          {
+            "size": "10",
+            "quantity": 1597,
+            "percentage": 14
+          },
+          {
+            "size": "6",
+            "quantity": 1369,
+            "percentage": 12
+          },
+          {
+            "size": "11",
+            "quantity": 1369,
+            "percentage": 12
+          },
+          {
+            "size": "5",
+            "quantity": 912,
+            "percentage": 8
+          },
+          {
+            "size": "12",
+            "quantity": 684,
+            "percentage": 6
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-09",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 16
+      },
+      "logistics": {
+        "distance_factor": 2.8,
+        "shipping_cost_estimate": 67889.5,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company H_Shirts_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company H",
+      "partner_region": "Middle East",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Shirts",
+        "total_quantity": 7047,
+        "size_breakdown": [
+          {
+            "size": "M",
+            "quantity": 1550,
+            "percentage": 22
+          },
+          {
+            "size": "L",
+            "quantity": 1550,
+            "percentage": 22
+          },
+          {
+            "size": "S",
+            "quantity": 1268,
+            "percentage": 18
+          },
+          {
+            "size": "XL",
+            "quantity": 1127,
+            "percentage": 16
+          },
+          {
+            "size": "XXL",
+            "quantity": 845,
+            "percentage": 12
+          },
+          {
+            "size": "XS",
+            "quantity": 704,
+            "percentage": 10
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-09",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 16
+      },
+      "logistics": {
+        "distance_factor": 2.8,
+        "shipping_cost_estimate": 44396.1,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company H_Coats_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company H",
+      "partner_region": "Middle East",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Coats",
+        "total_quantity": 3356,
+        "size_breakdown": [
+          {
+            "size": "M",
+            "quantity": 738,
+            "percentage": 22
+          },
+          {
+            "size": "L",
+            "quantity": 738,
+            "percentage": 22
+          },
+          {
+            "size": "S",
+            "quantity": 604,
+            "percentage": 18
+          },
+          {
+            "size": "XL",
+            "quantity": 536,
+            "percentage": 16
+          },
+          {
+            "size": "XXL",
+            "quantity": 402,
+            "percentage": 12
+          },
+          {
+            "size": "XS",
+            "quantity": 335,
+            "percentage": 10
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-09",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 16
+      },
+      "logistics": {
+        "distance_factor": 2.8,
+        "shipping_cost_estimate": 23492.0,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company F_Boots_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company F",
+      "partner_region": "Eastern Europe",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Boots",
+        "total_quantity": 28698,
+        "size_breakdown": [
+          {
+            "size": "8",
+            "quantity": 5165,
+            "percentage": 18
+          },
+          {
+            "size": "9",
+            "quantity": 5165,
+            "percentage": 18
+          },
+          {
+            "size": "10",
+            "quantity": 4591,
+            "percentage": 16
+          },
+          {
+            "size": "7",
+            "quantity": 4017,
+            "percentage": 14
+          },
+          {
+            "size": "11",
+            "quantity": 4017,
+            "percentage": 14
+          },
+          {
+            "size": "6",
+            "quantity": 2869,
+            "percentage": 10
+          },
+          {
+            "size": "12",
+            "quantity": 1721,
+            "percentage": 6
+          },
+          {
+            "size": "5",
+            "quantity": 1147,
+            "percentage": 4
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-11",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 14
+      },
+      "logistics": {
+        "distance_factor": 2.0,
+        "shipping_cost_estimate": 121966.5,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company F_Sneakers_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company F",
+      "partner_region": "Eastern Europe",
+      "product_details": {
+        "product_type": "Footwear",
+        "category": "Sneakers",
+        "total_quantity": 21523,
+        "size_breakdown": [
+          {
+            "size": "8",
+            "quantity": 3874,
+            "percentage": 18
+          },
+          {
+            "size": "9",
+            "quantity": 3874,
+            "percentage": 18
+          },
+          {
+            "size": "10",
+            "quantity": 3443,
+            "percentage": 16
+          },
+          {
+            "size": "7",
+            "quantity": 3013,
+            "percentage": 14
+          },
+          {
+            "size": "11",
+            "quantity": 3013,
+            "percentage": 14
+          },
+          {
+            "size": "6",
+            "quantity": 2152,
+            "percentage": 10
+          },
+          {
+            "size": "12",
+            "quantity": 1291,
+            "percentage": 6
+          },
+          {
+            "size": "5",
+            "quantity": 860,
+            "percentage": 4
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-11",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 14
+      },
+      "logistics": {
+        "distance_factor": 2.0,
+        "shipping_cost_estimate": 91472.75,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company F_Coats_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company F",
+      "partner_region": "Eastern Europe",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Coats",
+        "total_quantity": 14349,
+        "size_breakdown": [
+          {
+            "size": "L",
+            "quantity": 3587,
+            "percentage": 25
+          },
+          {
+            "size": "M",
+            "quantity": 2869,
+            "percentage": 20
+          },
+          {
+            "size": "XL",
+            "quantity": 2869,
+            "percentage": 20
+          },
+          {
+            "size": "XXL",
+            "quantity": 2152,
+            "percentage": 15
+          },
+          {
+            "size": "S",
+            "quantity": 2152,
+            "percentage": 15
+          },
+          {
+            "size": "XS",
+            "quantity": 717,
+            "percentage": 5
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-11",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 14
+      },
+      "logistics": {
+        "distance_factor": 2.0,
+        "shipping_cost_estimate": 60983.25,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    },
+    {
+      "allocation_id": "NY_Company F_Shirts_2025-10",
+      "from_warehouse": "NY",
+      "to_partner": "Company F",
+      "partner_region": "Eastern Europe",
+      "product_details": {
+        "product_type": "Apparel",
+        "category": "Shirts",
+        "total_quantity": 7174,
+        "size_breakdown": [
+          {
+            "size": "L",
+            "quantity": 1793,
+            "percentage": 25
+          },
+          {
+            "size": "M",
+            "quantity": 1434,
+            "percentage": 20
+          },
+          {
+            "size": "XL",
+            "quantity": 1434,
+            "percentage": 20
+          },
+          {
+            "size": "XXL",
+            "quantity": 1076,
+            "percentage": 15
+          },
+          {
+            "size": "S",
+            "quantity": 1076,
+            "percentage": 15
+          },
+          {
+            "size": "XS",
+            "quantity": 358,
+            "percentage": 5
+          }
+        ],
+        "fulfillment_percentage": 100
+      },
+      "timeline": {
+        "month": "2025-10",
+        "ship_by_date": "2025-10-11",
+        "deliver_by_date": "2025-10-25",
+        "lead_time_days": 14
+      },
+      "logistics": {
+        "distance_factor": 2.0,
+        "shipping_cost_estimate": 32283.0,
+        "warehouse_utilization_impact": 0
+      },
+      "priority": "MEDIUM",
+      "status": "RECOMMENDED",
+      "confidence": "High"
+    }
+  ],
+  "priority_summary": {
+    "urgent_allocations": 0,
+    "high_priority": 8,
+    "medium_priority": 8,
+    "low_priority": 4
+  }
+}

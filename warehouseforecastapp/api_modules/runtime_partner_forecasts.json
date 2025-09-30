@@ -1,0 +1,941 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-30T09:53:22.964603",
+    "forecast_type": "runtime_prophet_partner_demand",
+    "forecast_horizon_months": 12,
+    "successful_models": 5,
+    "total_partners_attempted": 5
+  },
+  "partner_forecasts": {
+    "Company H": {
+      "partner_name": "Company H",
+      "forecasts": {
+        "Sneakers": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 65477,
+            "lower_bound": 49771,
+            "upper_bound": 81684,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 44295,
+            "lower_bound": 28873,
+            "upper_bound": 60438,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 67835,
+            "lower_bound": 51590,
+            "upper_bound": 84331,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 0,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 66081,
+            "lower_bound": 50553,
+            "upper_bound": 81336,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 52891,
+            "lower_bound": 37059,
+            "upper_bound": 68548,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 43456,
+            "lower_bound": 27170,
+            "upper_bound": 59031,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 43196,
+            "lower_bound": 27813,
+            "upper_bound": 58002,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 19280,
+            "lower_bound": 2796,
+            "upper_bound": 35521,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 30664,
+            "lower_bound": 14037,
+            "upper_bound": 45428,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 55318,
+            "lower_bound": 39206,
+            "upper_bound": 70114,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 56884,
+            "lower_bound": 41022,
+            "upper_bound": 71697,
+            "confidence": "High"
+          }
+        ],
+        "Boots": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 27834,
+            "lower_bound": 19168,
+            "upper_bound": 37093,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 6544,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 39189,
+            "lower_bound": 29768,
+            "upper_bound": 48142,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 29685,
+            "lower_bound": 20605,
+            "upper_bound": 38869,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 13708,
+            "lower_bound": 4282,
+            "upper_bound": 21504,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 11520,
+            "lower_bound": 2165,
+            "upper_bound": 20625,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 10001,
+            "lower_bound": 549,
+            "upper_bound": 19211,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 33143,
+            "lower_bound": 24363,
+            "upper_bound": 42038,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 24148,
+            "lower_bound": 13564,
+            "upper_bound": 32802,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 17587,
+            "lower_bound": 9166,
+            "upper_bound": 26481,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 4680,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 53267,
+            "lower_bound": 44062,
+            "upper_bound": 62833,
+            "confidence": "High"
+          }
+        ]
+      },
+      "forecast_summary": {
+        "monthly_average": 33560,
+        "monthly_min": 0,
+        "monthly_max": 67835,
+        "total_12m_forecast": 805459,
+        "forecast_trend": "Stable",
+        "confidence_level": "High",
+        "last_updated": "2025-09-30T09:53:21.626226"
+      }
+    },
+    "Company C": {
+      "partner_name": "Company C",
+      "forecasts": {
+        "Sneakers": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 91991,
+            "lower_bound": 68869,
+            "upper_bound": 113770,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 128710,
+            "lower_bound": 106021,
+            "upper_bound": 150466,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 53817,
+            "lower_bound": 30686,
+            "upper_bound": 78658,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 129925,
+            "lower_bound": 106674,
+            "upper_bound": 155124,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 121651,
+            "lower_bound": 100430,
+            "upper_bound": 145047,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 64069,
+            "lower_bound": 40915,
+            "upper_bound": 87783,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 95587,
+            "lower_bound": 74030,
+            "upper_bound": 118235,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 87402,
+            "lower_bound": 65704,
+            "upper_bound": 108433,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 107216,
+            "lower_bound": 84350,
+            "upper_bound": 130249,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 110070,
+            "lower_bound": 86259,
+            "upper_bound": 133346,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 112595,
+            "lower_bound": 91073,
+            "upper_bound": 135398,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 131374,
+            "lower_bound": 108091,
+            "upper_bound": 156369,
+            "confidence": "High"
+          }
+        ],
+        "Boots": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 37271,
+            "lower_bound": 22062,
+            "upper_bound": 52583,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 48677,
+            "lower_bound": 33449,
+            "upper_bound": 63714,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 57044,
+            "lower_bound": 41751,
+            "upper_bound": 72930,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 57523,
+            "lower_bound": 41816,
+            "upper_bound": 72737,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 32475,
+            "lower_bound": 17322,
+            "upper_bound": 48159,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 54830,
+            "lower_bound": 39413,
+            "upper_bound": 69612,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 58533,
+            "lower_bound": 43255,
+            "upper_bound": 72806,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 26237,
+            "lower_bound": 11013,
+            "upper_bound": 41190,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 43781,
+            "lower_bound": 28498,
+            "upper_bound": 59056,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 32145,
+            "lower_bound": 15865,
+            "upper_bound": 49352,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 91106,
+            "lower_bound": 75860,
+            "upper_bound": 106656,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 70458,
+            "lower_bound": 53921,
+            "upper_bound": 86136,
+            "confidence": "High"
+          }
+        ]
+      },
+      "forecast_summary": {
+        "monthly_average": 76853,
+        "monthly_min": 26237,
+        "monthly_max": 131374,
+        "total_12m_forecast": 1844487,
+        "forecast_trend": "Stable",
+        "confidence_level": "High",
+        "last_updated": "2025-09-30T09:53:21.989494"
+      }
+    },
+    "Company F": {
+      "partner_name": "Company F",
+      "forecasts": {
+        "Sneakers": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 131060,
+            "lower_bound": 111529,
+            "upper_bound": 150308,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 91724,
+            "lower_bound": 72929,
+            "upper_bound": 110086,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 56801,
+            "lower_bound": 37467,
+            "upper_bound": 75005,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 92948,
+            "lower_bound": 73560,
+            "upper_bound": 111745,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 56369,
+            "lower_bound": 39684,
+            "upper_bound": 75704,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 78316,
+            "lower_bound": 59899,
+            "upper_bound": 97966,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 96084,
+            "lower_bound": 76411,
+            "upper_bound": 115356,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 49902,
+            "lower_bound": 30579,
+            "upper_bound": 69691,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 88089,
+            "lower_bound": 68931,
+            "upper_bound": 106945,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 87015,
+            "lower_bound": 67627,
+            "upper_bound": 105087,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 40366,
+            "lower_bound": 20079,
+            "upper_bound": 59309,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 88833,
+            "lower_bound": 68551,
+            "upper_bound": 108841,
+            "confidence": "High"
+          }
+        ],
+        "Boots": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 93993,
+            "lower_bound": 80913,
+            "upper_bound": 108229,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 58894,
+            "lower_bound": 43982,
+            "upper_bound": 72071,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 28830,
+            "lower_bound": 15320,
+            "upper_bound": 42637,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 12751,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 65103,
+            "lower_bound": 51858,
+            "upper_bound": 79322,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 58911,
+            "lower_bound": 45239,
+            "upper_bound": 72448,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 11854,
+            "lower_bound": 0,
+            "upper_bound": 24884,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 18010,
+            "lower_bound": 5015,
+            "upper_bound": 32108,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 93534,
+            "lower_bound": 79727,
+            "upper_bound": 106723,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 24061,
+            "lower_bound": 10911,
+            "upper_bound": 38646,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 5159,
+            "lower_bound": 0,
+            "upper_bound": 19011,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 19084,
+            "lower_bound": 6123,
+            "upper_bound": 32492,
+            "confidence": "High"
+          }
+        ]
+      },
+      "forecast_summary": {
+        "monthly_average": 59789,
+        "monthly_min": 0,
+        "monthly_max": 131060,
+        "total_12m_forecast": 1434940,
+        "forecast_trend": "Stable",
+        "confidence_level": "High",
+        "last_updated": "2025-09-30T09:53:22.292944"
+      }
+    },
+    "Company E": {
+      "partner_name": "Company E",
+      "forecasts": {
+        "Sneakers": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 145759,
+            "lower_bound": 127429,
+            "upper_bound": 164306,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 34982,
+            "lower_bound": 17348,
+            "upper_bound": 53150,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 131481,
+            "lower_bound": 111616,
+            "upper_bound": 149701,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 96067,
+            "lower_bound": 77734,
+            "upper_bound": 113834,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 74166,
+            "lower_bound": 55546,
+            "upper_bound": 93649,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 99543,
+            "lower_bound": 81608,
+            "upper_bound": 118676,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 86613,
+            "lower_bound": 68689,
+            "upper_bound": 105471,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 108124,
+            "lower_bound": 89846,
+            "upper_bound": 126261,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 82213,
+            "lower_bound": 63905,
+            "upper_bound": 101293,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 76499,
+            "lower_bound": 57415,
+            "upper_bound": 95194,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 80133,
+            "lower_bound": 62213,
+            "upper_bound": 99681,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 115868,
+            "lower_bound": 96997,
+            "upper_bound": 134441,
+            "confidence": "High"
+          }
+        ],
+        "Boots": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 72556,
+            "lower_bound": 60050,
+            "upper_bound": 85559,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 19645,
+            "lower_bound": 7346,
+            "upper_bound": 32139,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 26041,
+            "lower_bound": 12541,
+            "upper_bound": 38391,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 70781,
+            "lower_bound": 57899,
+            "upper_bound": 83810,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 59715,
+            "lower_bound": 47799,
+            "upper_bound": 71821,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 37587,
+            "lower_bound": 25590,
+            "upper_bound": 50748,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 24476,
+            "lower_bound": 10963,
+            "upper_bound": 37367,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 56554,
+            "lower_bound": 43533,
+            "upper_bound": 69376,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 35380,
+            "lower_bound": 23711,
+            "upper_bound": 46745,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 42431,
+            "lower_bound": 30758,
+            "upper_bound": 54735,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 35485,
+            "lower_bound": 22540,
+            "upper_bound": 47793,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 70942,
+            "lower_bound": 58530,
+            "upper_bound": 82916,
+            "confidence": "High"
+          }
+        ]
+      },
+      "forecast_summary": {
+        "monthly_average": 70126,
+        "monthly_min": 19645,
+        "monthly_max": 145759,
+        "total_12m_forecast": 1683041,
+        "forecast_trend": "Stable",
+        "confidence_level": "High",
+        "last_updated": "2025-09-30T09:53:22.613509"
+      }
+    },
+    "Company I": {
+      "partner_name": "Company I",
+      "forecasts": {
+        "Sneakers": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 25452,
+            "lower_bound": 8002,
+            "upper_bound": 42140,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 0,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 31009,
+            "lower_bound": 15285,
+            "upper_bound": 48935,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 35013,
+            "lower_bound": 17958,
+            "upper_bound": 51080,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 1784,
+            "lower_bound": 0,
+            "upper_bound": 18478,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 11992,
+            "lower_bound": 0,
+            "upper_bound": 29588,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 21224,
+            "lower_bound": 5705,
+            "upper_bound": 36965,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 10580,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 1351,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 30065,
+            "lower_bound": 12937,
+            "upper_bound": 47479,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 8568,
+            "lower_bound": 0,
+            "upper_bound": 26030,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 58152,
+            "lower_bound": 41928,
+            "upper_bound": 75710,
+            "confidence": "High"
+          }
+        ],
+        "Boots": [
+          {
+            "month": "2022-12",
+            "predicted_demand": 23710,
+            "lower_bound": 17374,
+            "upper_bound": 30424,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-01",
+            "predicted_demand": 4132,
+            "lower_bound": 0,
+            "upper_bound": 10493,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-02",
+            "predicted_demand": 5476,
+            "lower_bound": 0,
+            "upper_bound": 12022,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-03",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 2963,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-04",
+            "predicted_demand": 3117,
+            "lower_bound": 0,
+            "upper_bound": 9756,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-05",
+            "predicted_demand": 27605,
+            "lower_bound": 21451,
+            "upper_bound": 34012,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-06",
+            "predicted_demand": 2531,
+            "lower_bound": 0,
+            "upper_bound": 8832,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-07",
+            "predicted_demand": 4546,
+            "lower_bound": 0,
+            "upper_bound": 10434,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-08",
+            "predicted_demand": 204,
+            "lower_bound": 0,
+            "upper_bound": 6629,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-09",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 4741,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-10",
+            "predicted_demand": 23071,
+            "lower_bound": 16418,
+            "upper_bound": 29072,
+            "confidence": "High"
+          },
+          {
+            "month": "2023-11",
+            "predicted_demand": 0,
+            "lower_bound": 0,
+            "upper_bound": 6293,
+            "confidence": "High"
+          }
+        ]
+      },
+      "forecast_summary": {
+        "monthly_average": 13235,
+        "monthly_min": 0,
+        "monthly_max": 58152,
+        "total_12m_forecast": 317651,
+        "forecast_trend": "Stable",
+        "confidence_level": "High",
+        "last_updated": "2025-09-30T09:53:22.964581"
+      }
+    }
+  }
+}

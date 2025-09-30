@@ -1,0 +1,12 @@
+{
+  "forecast_date": "2025-09-24 22:18:10.409871",
+  "starting_inventory": 940582.0,
+  "months_forecasted": 6,
+  "total_supply_forecast": 5899733.693640058,
+  "total_demand_forecast": 6117589.520089229,
+  "net_6_month_flow": -217855.8264491707,
+  "final_inventory": 722726.173550829,
+  "stockout_months": 0,
+  "first_stockout_month": null,
+  "max_shortage": 0
+}
